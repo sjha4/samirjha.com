@@ -1,0 +1,190 @@
+<html>
+<nav style="text-align: center;">
+  <button id="Hide" style="float: left; margin: .1%" class="btn btn-danger">Hide Images!!</button>
+  <button id="Crazy" style="float: left; margin: .1%" class="btn btn-danger">All Content on page!</button>
+  <button id="ResumeButton" style="float: right; margin: .1%" class="btn btn-success" onclick="window.open('https://drive.google.com/file/d/0B4cyXKqW4bliUnNqNXFTNGZuVDQ/view?usp=sharing')">
+    <span class="glyphicon glyphicon-file" aria-hidden="true"></span> My Resume</button>
+  <button id ="proj" type="button" style="float: right; margin: .1%" class="btn btn-success" aria-label="Left Align">
+    <span id ="folder" class="glyphicon glyphicon-folder-close" aria-hidden="true"></span> <b id="ProjText"> See Projects</b></button>
+  <h4 class="text-secondary"> Welcome to Samir's den!</h4>
+</nav>
+<header>
+  <script>
+    $( document ).ready(function() {
+
+      $("#proj").click(function(){
+        var proj = $("#folder")
+        if($("#ProjText").text()==" See Projects")
+        {
+          proj.removeClass("glyphicon glyphicon-folder-close")
+          proj.addClass("glyphicon glyphicon-folder-open")
+          $("#ProjText").text(" Hide Projects")
+          $("#row1").css("display","none")
+          $("#row2").css("display","block")
+        }
+        else
+        {
+          proj.removeClass("glyphicon glyphicon-folder-open")
+          proj.addClass("glyphicon glyphicon-folder-close")
+          $("#ProjText").text(" See Projects")
+          $("#row1").css("display","block")
+          $("#row2").css("display","none")
+        }
+
+
+      })
+      $("#NextProj1").click( function(){
+        $("#row3").css("display","none")
+        $("#row4").css("display","block")
+
+
+      })
+      $("#PrevProj1").click( function(){
+        $("#row4").css("display","none")
+        $("#row3").css("display","block")
+
+
+      })
+      $("#Hide").click(function(){
+        var div = $("img")
+        var divForm = $("#FormFill")
+        var imgDiv = $("#Images")
+        div.slideToggle();
+        if($(this).text()=="Hide Images!!") {
+          $(this).text('Show Images!!')
+          divForm.addClass("col-sm-10")
+          divForm.removeClass("col-sm-5")
+          imgDiv.addClass("col-sm-0")
+          imgDiv.removeClass("col-sm-5")
+          if (!("Notification" in window)) {
+            alert("This browser does not support desktop notification");
+          }
+          // Let's check whether notification permissions have already been granted
+          else if (Notification.permission === "granted") {
+            // If it's okay let's create a notification
+            var n = new Notification("That's rude!!You could click on the images and redirect..", {iconUrl:'https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/0b8/2a1/1e2d049.jpg'});
+            setTimeout(n.close.bind(n), 3000);
+          }
+          // Otherwise, we need to ask the user for permission
+          else if (Notification.permission !== 'denied') {
+            Notification.requestPermission(function (permission) {
+              // If the user accepts, let's create a notification
+              if (permission === "granted") {
+                var n = new Notification("That's rude!! You could click on the images and redirect..", {iconUrl:'https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/0b8/2a1/1e2d049.jpg'});
+                setTimeout(n.close.bind(n), 3000);
+              }
+            });
+          }
+
+        }
+        else{
+              $(this).text("Hide Images!!")
+              imgDiv.removeClass("col-sm-0")
+              imgDiv.addClass("col-sm-5")
+              divForm.removeClass("col-sm-10")
+              divForm.addClass("col-sm-5")
+
+        }
+
+      })
+
+      $("#Crazy").click(function()
+      {
+        var div = $("div");
+        div.css("display","block")
+        $("#row4").css("display","none")
+      })
+
+    });
+  </script>
+
+
+</header>
+<body style="margin: 0%;font-weight:bold; font-family :Geomanist Helvetica sans-serif;background-size:100%;">
+<div class = "container" style="display:block;margin-top: inherit">
+    <div id= "row1" class="row">
+      <div id="Images" class = "col-sm-5" style="float: left">
+        <h3 class="text-primary">LinkedIn<span class="glyphicon glyphicon-hand-down" aria-hidden="true"></span></h3>
+        <img id = "abc" style="height: 50%; width: 50%;border-radius: 50%;" onclick="window.open('https://www.linkedin.com/in/deeplearningsamirjha')" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/0b8/2a1/1e2d049.jpg"/>
+        <br>
+        <h3 class="text-primary">Github<span class="glyphicon glyphicon-hand-down" aria-hidden="true"></span></h3>
+        <img style="height: 50%; width: 50%;border-radius: 50%;" onclick="window.open('https://github.com/sjha4')" src="https://avatars1.githubusercontent.com/u/21146741?v=3&u=89575d401d31a39a2b6112f32f3b778a0019e8f2&s=400"/>
+        <br/>
+      </div>
+      <div id = "FormFill" class = "col-sm-5" style="float: right">
+        <%= render 'application/comment_form' %>
+
+
+      </div>
+      </div>
+  <div id= "row2" style="display:none;margin-top: inherit;height:100%">
+    <h2 class="text-primary">Projects</h2>
+    <div id="buttonDiv" style="align-items: center">
+      <button id="PrevProj1" type="button" class="btn btn-info">
+        <b>1</b>
+      </button>
+      <button id="NextProj1" type="button" class="btn btn-info">
+        <b>2</b>
+      </button>
+      <p><br/></p>
+    </div>
+  <div id= "row3" class="row" style="display:block;margin-top: inherit">
+    <div id="Project1" class = "col-sm-4">
+      <h2 class="text-primary">User-Level Threading Library</h2><p><br/></p>
+      <img src="http://www.thepaintedtiger.com/images/large/IMG_6225.JPG" style="height: 100%; width: 100%;border-radius: 50%;"/>
+      <br/>
+      <p align="justify"><br/>A non-preemptive user
+        level Thread library with support for Semaphores
+        and context-switching.
+      </p>
+    </div>
+    <div id="Project2" class = "col-sm-4">
+      <h2 class="text-primary"><a href="https://docs.google.com/document/d/1dIzr8OCAM-sghQRwgewDO1gyNZxBsI4DMFC1EQTBt2M/edit?usp=sharing">Service Chaining using OpenFlow (SDN)</a></h2><p><br/></p>
+      <img src="http://media.bestofmicro.com/F/I/460638/gallery/Software-Defined-Network_w_640.jpg" style="height: 100%; width: 100%;border-radius: 50%;"/>
+      <br/>
+      <p align="justify"><br/>Traffic flow from the user is routed to the
+        corresponding service function before being routed to the destination.
+        This completely eliminates the need for network admins to allocate resources manually.
+      </p>
+    </div>
+    <div id="Project3" class = "col-sm-4">
+      <h2 class="text-primary">RAMDISK: In-memory Filesystem</h2><p><br/></p>
+      <img src="http://cdn.cultofmac.com/wp-content/uploads/2014/04/File-Size-Photo-640x480.jpg" style="height: 100%; width: 100%;border-radius: 50%;"/>
+      <br/>
+      <p align="justify"><br/>A filesystem where file/directory routines are executed in
+        user-space instead of kernel-space. Based on RAM, accessing files is almost 300% faster.
+      </p>
+    </div>
+      </div>
+    <div id= "row4" class="row" style="display:none;margin-top: inherit">
+      <div id="Project4" class = "col-sm-4">
+        <h2 class="text-primary">Mu-Shell</h2><p><br/></p>
+        <img src="https://www.anthonynotes.com/wp-content/uploads/2015/06/linux_tux.jpg" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <br/>
+        <p align="justify"><br/>A shell : command interpreter – complete with parser,
+          I/O redirection, command execution, signal handling, job control and status reporting.
+        </p>
+      </div>
+      <div id="Project5" class = "col-sm-4">
+        <h2 class="text-primary">Fend – A sandbox </h2><p><br/></p>
+        <img src="http://www.inspiringwallpapers.net/content/uploads/download-640x480/shield_of_captain_america_hd_wallpaper-HD.jpg" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <br/>
+        <p align="justify"><br/>A a security mechanism wherein access for every program is
+          configurable at the granular level of library calls,
+          system calls, access to files stored on disc or executing any unwanted scripts.
+        </p>
+      </div>
+      <div id="Project6" class = "col-sm-4">
+        <h2 class="text-primary">Expertiza - Open Source</h2><p><br/></p>
+        <img src="https://kassieskorner.files.wordpress.com/2015/03/tuffy.jpg?w=640" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <br/>
+        <p align="justify"><br/>A non-preemptive user
+          level Thread library with support for Semaphores
+          and context-switching.
+        </p>
+      </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
