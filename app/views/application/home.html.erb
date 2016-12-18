@@ -6,12 +6,30 @@
     <span class="glyphicon glyphicon-file" aria-hidden="true"></span> My Resume</button>
   <button id ="proj" type="button" style="float: right; margin: .1%" class="btn btn-success" aria-label="Left Align">
     <span id ="folder" class="glyphicon glyphicon-folder-close" aria-hidden="true"></span> <b id="ProjText"> See Projects</b></button>
-  <h4 class="text-secondary"> Welcome to Samir's den!</h4>
+  <button id="AboutMe" style="float: right; margin: .1%" class="btn btn-success">
+    <span class="glyphicon glyphicon-user" aria-hidden="true"></span> <b id="AboutButtonText"> About Me</b></button>
+  <h4 class="text-secondary"> Welcome to my den!</h4>
 </nav>
 <header>
 
   <script>
     $( document ).ready(function() {
+      $("#AboutMe").click(function(){
+        if($("#AboutButtonText").text()==" About Me")
+        {
+          $("#row1").css("display", "none")
+          $("#row2").css("display", "none")
+          $("#rowAbout").css("display", "block")
+          $("#AboutButtonText").text(" Hide About Me")
+        }
+        else{
+          $("#row1").css("display", "block")
+          $("#row2").css("display", "none")
+          $("#rowAbout").css("display", "none")
+          $("#AboutButtonText").text(" About Me")
+
+        }
+      })
 
       $("#proj").click(function(){
         var proj = $("#folder")
@@ -22,6 +40,7 @@
           $("#ProjText").text(" Hide Projects")
           $("#row1").css("display","none")
           $("#row2").css("display","block")
+          $("#rowAbout").css("display","none")
         }
         else
         {
@@ -30,6 +49,7 @@
           $("#ProjText").text(" See Projects")
           $("#row1").css("display","block")
           $("#row2").css("display","none")
+          $("#rowAbout").css("display","none")
         }
 
 
@@ -104,6 +124,7 @@
         div.css("display","block")
         $("#row4").css("display","none")
         $("#row5").css("display","none")
+
 
       })
 
@@ -213,7 +234,7 @@
       </div>
     </div>
   </div>
-  <div id= "rowAbout" class="row" style="display:block;margin-top: inherit;height:100%">
+  <div id= "rowAbout" class="row" style="display:none;margin-top: inherit;height:100%">
     <p align="justify"><br/>A non-preemptive user
       level Thread library with support for Semaphores<br/>
       and context-switching.
