@@ -63,7 +63,7 @@
           // Let's check whether notification permissions have already been granted
           else if (Notification.permission === "granted") {
             // If it's okay let's create a notification
-            var n = new Notification("That's rude!!You could click on the images and redirect..", {iconUrl:'https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/0b8/2a1/1e2d049.jpg'});
+            var n = new Notification("You could click on the images and redirect..", {iconUrl:'https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/0b8/2a1/1e2d049.jpg'});
             setTimeout(n.close.bind(n), 3000);
           }
           // Otherwise, we need to ask the user for permission
@@ -71,7 +71,7 @@
             Notification.requestPermission(function (permission) {
               // If the user accepts, let's create a notification
               if (permission === "granted") {
-                var n = new Notification("That's rude!! You could click on the images and redirect..", {iconUrl:'https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/0b8/2a1/1e2d049.jpg'});
+                var n = new Notification("You could click on the images and redirect..", {iconUrl:'https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/0b8/2a1/1e2d049.jpg'});
                 setTimeout(n.close.bind(n), 3000);
               }
             });
