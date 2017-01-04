@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="570a8333-1fa9-4378-94a7-e35eaa3400e1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/home.html.erb" afterPath="$PROJECT_DIR$/app/views/application/home.html.erb" />
     </list>
     <ignored path="untitled6.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -596,14 +595,7 @@
       <updated>1481973568784</updated>
       <workItem from="1481973570072" duration="52548000" />
       <workItem from="1482071895017" duration="15033000" />
-      <workItem from="1483526861090" duration="4660000" />
-    </task>
-    <task id="LOCAL-00015" summary="Adding Project  Links">
-      <created>1482080965380</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1482080965380</updated>
+      <workItem from="1483526861090" duration="4666000" />
     </task>
     <task id="LOCAL-00016" summary="Adding Project  Links">
       <created>1482081095922</created>
@@ -941,11 +933,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483532076460</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Minor changes">
+      <created>1483532295234</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1483532295234</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72241000" />
+    <option name="totallyTimeSpent" value="72247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="1" width="1550" height="904" extended-state="0" />
