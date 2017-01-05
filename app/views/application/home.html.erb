@@ -11,7 +11,7 @@
   <ul class="nav navbar-nav navbar-right">
     <li>
       <button id="AboutMe" style="float: right; margin: .1%" class="btn btn-success navbar-btn">
-    <span class="glyphicon glyphicon-user" aria-hidden="true"></span> <b id="AboutButtonText"> About Me</b>
+    <span class="glyphicon glyphicon-user" aria-hidden="true"></span> <b id="AboutButtonText"> My Contact</b>
       </button>
     </li>
     <li> </li>
@@ -53,18 +53,18 @@
   <script>
     $( document ).ready(function() {
       $("#AboutMe").click(function(){
-        if($("#AboutButtonText").text()==" About Me")
+        if($("#AboutButtonText").text()==" My Contact")
         {
           $("#row1").css("display", "none")
           $("#row2").css("display", "none")
           $("#rowAbout").css("display", "block")
-          $("#AboutButtonText").text(" Hide About Me")
+          $("#AboutButtonText").text(" Hide Contact")
         }
         else{
           $("#row1").css("display", "block")
           $("#row2").css("display", "none")
           $("#rowAbout").css("display", "none")
-          $("#AboutButtonText").text(" About Me")
+          $("#AboutButtonText").text(" My Contact")
 
         }
       })
@@ -291,7 +291,7 @@
     </div>
 </div>
   </div>
-<div class="footer" style="bottom: 0;margin:1%;position: absolute;height: 10%;background-color: ">
+<div class="footer" style="bottom: 0;margin:1%;position: absolute;height: 10%;">
   <div class = "container" style="display:block;position: relative;bottom: 0;left:0;right:0;opacity:100 ;width:auto;height: 5%">
     <div id= "footerDiv" class="row">
       <div class="col-sm-10">
