@@ -10,18 +10,18 @@
     </ul>
   <ul class="nav navbar-nav navbar-right">
     <li>
-      <button id="AboutMe" style="float: right;" class="btn btn-success navbar-btn">
+      <button id="AboutMe" style="float: right;" class="btn btn-danger navbar-btn">
     <span class="glyphicon glyphicon-user" aria-hidden="true"></span> <b id="AboutButtonText"> My Contact</b>
       </button>
     </li>
     <li> </li>
     <li>
-      <button id="ResumeButton" style="float: right;" class="btn btn-success navbar-btn" onclick="window.open('https://drive.google.com/file/d/0B4cyXKqW4bliZTRTY3Y1VENSSmc/view?usp=sharing')">
+      <button id="ResumeButton" style="float: right;" class="btn btn-danger navbar-btn" onclick="window.open('https://drive.google.com/file/d/0B4cyXKqW4bliZTRTY3Y1VENSSmc/view?usp=sharing')">
         <span class="glyphicon glyphicon-file" aria-hidden="true"></span> <b> My Resume</b>
       </button>
     </li>
     <li>
-      <button id ="proj" type="button" style="float: right;" class="btn btn-success navbar-btn" aria-label="Left Align">
+      <button id ="proj" type="button" style="float: right;" class="btn btn-danger navbar-btn" aria-label="Left Align">
     <span id ="folder" class="glyphicon glyphicon-folder-close" aria-hidden="true"></span> <b id="ProjText"> See Projects</b>
       </button>
     </li>
@@ -36,6 +36,8 @@
   }
   body {
     min-height: 100%;
+    background-image: url("http://www.wallpapers4u.org/wp-content/uploads/background_spot_light_surface_texture_50715_1920x1080.jpg");
+    background-size: 100%;
   }
   .text-primary{
     font-family: Fredericka the Great, sans-serif;
@@ -44,10 +46,10 @@
     border-color: #0000aa;
   }
 
-  .btn-success {
+  .btn-danger {
     background-color: black;
   }
-  .btn-danger {
+  .btn-success {
     background-color: black;
   }
   .btn-info {
@@ -59,6 +61,7 @@
   .form-group{
     font-family: Fredericka the Great, sans-serif;
     font-weight: bold;
+    color: black;
   }
 
     button{
@@ -70,6 +73,7 @@
     p{
       font-family: Fredericka the Great, sans-serif;
       font-size: 110%;
+      color: black;
     }
   </style>
   <script>
@@ -219,13 +223,13 @@
   <div id= "row2" style="display:none;margin-top: 5%;height:100%">
     <h2 class="text-primary">Projects</h2>
     <div id="buttonDiv" style="align-items: center">
-      <button id="PrevProj1" type="button" class="btn btn-info">
+      <button id="PrevProj1" type="button" class="btn btn-danger">
         <b>1</b>
       </button>
-      <button id="NextProj1" type="button" class="btn btn-info">
+      <button id="NextProj1" type="button" class="btn btn-danger">
         <b>2</b>
       </button>
-      <button id="NextProj2" type="button" class="btn btn-info">
+      <button id="NextProj2" type="button" class="btn btn-danger">
         <b>3</b>
       </button>
       <p><br/></p>
