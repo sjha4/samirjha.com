@@ -11,6 +11,10 @@ class ApplicationController < ActionController::Base
     redirect_to root_path
   end
 
+  def music
+    redirect_to music_path
+  end
+
   private
   # Use callbacks to share common setup or constraints between actions.
   def set_comment
