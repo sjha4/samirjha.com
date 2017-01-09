@@ -23,6 +23,11 @@
         <span id ="folder" class="glyphicon glyphicon-folder-close" aria-hidden="true"></span> <i id="ProjText"> See Projects</i>
       </button>
     </li>
+    <li>
+
+        <%= button_to('My Music App', music_path, method: :get, :style=>'float: right' ,:class => 'btn btn-danger navbar-btn')  %>
+        <!--%= link_to 'Call Action', music_path, method: :get %-->
+    </li>
     <!--<b id="HireMe"  class="text-primary" style=" color: red;float: right; margin: .1%">Peek Inside <span class="glyphicon glyphicon-arrow-right" aria-hidden="true">  </span> <span class="glyphicon glyphicon-arrow-right" aria-hidden="true">  </span></b> -->
   </ul>
 </nav>
@@ -215,9 +220,6 @@
 <div class = "container" style="display:block;margin-top: 5%">
   <div id= "row1" class="row">
     <div id="Images" class = "col-md-3" style="padding:0;margin-top:5%;float: left">
-      <!--<div class="button">
-        <!--%= link_to 'Call Action', music_path, method: :get %>
-      </div>-->
       <h3 class="text-primary">LinkedIn<span class="glyphicon glyphicon-hand-down" aria-hidden="true"></span></h3>
       <img id = "abc" style="height: 50%; width: 50%;border-radius: 50%;" onclick="window.open('https://www.linkedin.com/in/deeplearningsamirjha')" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/0b8/2a1/1e2d049.jpg"/>
       <br>
