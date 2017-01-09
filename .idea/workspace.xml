@@ -4,7 +4,6 @@
     <list default="true" id="570a8333-1fa9-4378-94a7-e35eaa3400e1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/home.html.erb" afterPath="$PROJECT_DIR$/app/views/application/home.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/music.html.erb" afterPath="$PROJECT_DIR$/app/views/application/music.html.erb" />
     </list>
     <ignored path="untitled6.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,16 +57,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+            <state relative-caret-position="164">
+              <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#nav#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1483998047681" expanded="false" signature="210:222" ph="..." />
+                <marker date="1483998300138" expanded="false" signature="210:222" ph="..." />
               </folding>
             </state>
           </provider>
@@ -83,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="music.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="music.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/application/music.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="-79">
               <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#nav#0;n#header#0;n#html#0;n#!!top" expanded="true" />
@@ -178,8 +177,8 @@
         <option value="$PROJECT_DIR$/app/views/application/music.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/application/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/application/music.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/application/home.html.erb" />
       </list>
     </option>
   </component>
@@ -479,14 +478,7 @@
       <workItem from="1482071895017" duration="15033000" />
       <workItem from="1483526861090" duration="24552000" />
       <workItem from="1483617380708" duration="7994000" />
-      <workItem from="1483972396491" duration="10723000" />
-    </task>
-    <task id="LOCAL-00120" summary="Minor changes">
-      <created>1483615522755</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1483615522755</updated>
+      <workItem from="1483972396491" duration="10873000" />
     </task>
     <task id="LOCAL-00121" summary="Minor changes">
       <created>1483615890602</created>
@@ -824,11 +816,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483997355223</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="Making secure">
+      <created>1483998161063</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1483998161063</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110850000" />
+    <option name="totallyTimeSpent" value="111000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -931,7 +930,7 @@
             <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#nav#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1483998047681" expanded="false" signature="210:222" ph="..." />
+            <marker date="1483998300138" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1013,7 +1012,7 @@
             <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#nav#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1483998047681" expanded="false" signature="210:222" ph="..." />
+            <marker date="1483998300138" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1095,7 +1094,7 @@
             <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#nav#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1483998047681" expanded="false" signature="210:222" ph="..." />
+            <marker date="1483998300138" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1272,22 +1271,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#nav#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1483998047681" expanded="false" signature="210:222" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/music.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="-79">
           <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#header#0;n#html#0;n#!!top" expanded="true" />
@@ -1295,6 +1281,19 @@
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1483998153239" expanded="true" signature="2651:2729" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#nav#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1483998300138" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
