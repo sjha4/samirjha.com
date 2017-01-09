@@ -12,7 +12,6 @@ class ApplicationController < ActionController::Base
   end
 
   def music
-    redirect_to music_path
   end
 
   private
