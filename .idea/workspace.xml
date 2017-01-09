@@ -60,12 +60,12 @@
       <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="27" column="118" selection-start-line="27" selection-start-column="118" selection-end-line="27" selection-end-column="118" />
+            <state relative-caret-position="425">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#nav#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1483992656637" expanded="false" signature="210:222" ph="..." />
+                <marker date="1483992832279" expanded="false" signature="210:222" ph="..." />
               </folding>
             </state>
           </provider>
@@ -474,14 +474,7 @@
       <workItem from="1482071895017" duration="15033000" />
       <workItem from="1483526861090" duration="24552000" />
       <workItem from="1483617380708" duration="7994000" />
-      <workItem from="1483972396491" duration="6077000" />
-    </task>
-    <task id="LOCAL-00113" summary="Minor changes">
-      <created>1483611416376</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1483611416376</updated>
+      <workItem from="1483972396491" duration="6252000" />
     </task>
     <task id="LOCAL-00114" summary="Minor changes">
       <created>1483611752853</created>
@@ -819,11 +812,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483992508308</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="Making secure">
+      <created>1483992660523</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1483992660523</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106204000" />
+    <option name="totallyTimeSpent" value="106379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -925,7 +925,7 @@
           <folding>
             <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#nav#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1483992656637" expanded="false" signature="210:222" ph="..." />
+            <marker date="1483992832279" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1006,7 +1006,7 @@
           <folding>
             <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#nav#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1483992656637" expanded="false" signature="210:222" ph="..." />
+            <marker date="1483992832279" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1087,7 +1087,7 @@
           <folding>
             <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#nav#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1483992656637" expanded="false" signature="210:222" ph="..." />
+            <marker date="1483992832279" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1277,12 +1277,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="27" column="118" selection-start-line="27" selection-start-column="118" selection-end-line="27" selection-end-column="118" />
+        <state relative-caret-position="425">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#nav#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1483992656637" expanded="false" signature="210:222" ph="..." />
+            <marker date="1483992832279" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
