@@ -6,6 +6,24 @@
   <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
   <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Vampiro+One" rel="stylesheet">
+  <style>
+  @-webkit-keyframes mymove {
+  0%   {color: red;}
+  25%  {color: blue;}
+  50%  {color: yellow;}
+  75%  {color: green;}
+  100% {color: red;}
+  }
+
+  /* Standard syntax */
+  @keyframes mymove {
+  0%   {color: red;}
+  25%  {color: blue;}
+  50%  {color: yellow;}
+  75%  {color: green;}
+  100% {color: red;}
+  }
+  </style>
 </head>
 <header>
   <nav class="navbar navbar-inverse navbar-fixed-top" style="font-family: 'Vampiro One';
@@ -16,7 +34,7 @@
       <div class="navbar-header">
         <a class="navbar-brand" href="https://samirjha.herokuapp.com">
           <img alt="Brand" src="https://samirjha.herokuapp.com/favicon.ico">
-          View All Top Charts!! (Data fetched from: <a style=" font-family:'Vampiro One', cursive;" href="www.last.fm">LASTFM</a>)
+          View All Top Charts!! <b style="animation: mymove 5s infinite;" onclick="window.open('http://last.fm')">(Data fetched from: www.last.fm)</b>
         </a>
       </div>
     </div>
