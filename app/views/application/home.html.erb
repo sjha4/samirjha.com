@@ -19,7 +19,7 @@
       </button>
     </li>
     <li>
-      <button id ="proj" type="button" style="float: right;" class="btn btn-danger navbar-btn" aria-label="Left Align">
+      <button id ="proj" type="button" style="float: right;animation: spin 5s infinite;" class="btn btn-danger navbar-btn" aria-label="Left Align">
         <span id ="folder" class="glyphicon glyphicon-folder-close" aria-hidden="true"></span> <i id="ProjText"> See Projects</i>
       </button>
     </li>
@@ -35,6 +35,18 @@
 </nav>
 <header>
   <style>
+    @-moz-keyframes spin {
+      from { -moz-transform: rotate(0deg); }
+      to { -moz-transform: rotate(360deg); }
+    }
+    @-webkit-keyframes spin {
+      from { -webkit-transform: rotate(0deg); }
+      to { -webkit-transform: rotate(360deg); }
+    }
+    @keyframes spin {
+      from {transform:rotate(0deg);}
+      to {transform:rotate(360deg);}
+    }
     html {
       height: 100%;
     }
