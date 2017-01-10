@@ -312,7 +312,7 @@
     $.get("https://ipinfo.io", function(response) {
       console.log(response.city, response.country);
     }, "jsonp");
-    $('#example').DataTable( {
+    var table = $('#example').DataTable( {
       "dom": '<"top"iflp<"clear">>rt<"bottom"iflp<"clear">>',
       ajax: {
         url:"https://ws.audioscrobbler.com/2.0/?method=geo.gettoptracks&country="+com+"&api_key=66418c77a86becf1efcbf16f6d1c4402&format=json",
