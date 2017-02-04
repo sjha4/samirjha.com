@@ -62,8 +62,8 @@
       <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="160" column="16" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
+            <state relative-caret-position="334">
+              <caret line="237" column="38" selection-start-line="237" selection-start-column="38" selection-end-line="237" selection-end-column="38" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -74,7 +74,7 @@
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#2;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1486242506966" expanded="false" signature="210:222" ph="..." />
+                <marker date="1486242646854" expanded="false" signature="210:222" ph="..." />
               </folding>
             </state>
           </provider>
@@ -507,14 +507,7 @@
       <workItem from="1483617380708" duration="7994000" />
       <workItem from="1483972396491" duration="22221000" />
       <workItem from="1484413103161" duration="595000" />
-      <workItem from="1486241421694" duration="1083000" />
-    </task>
-    <task id="LOCAL-00144" summary="Minor changes">
-      <created>1483629308350</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1483629308350</updated>
+      <workItem from="1486241421694" duration="1223000" />
     </task>
     <task id="LOCAL-00145" summary="Minor changes">
       <created>1483629658359</created>
@@ -852,11 +845,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486242038688</updated>
     </task>
-    <option name="localTasksCounter" value="193" />
+    <task id="LOCAL-00193" summary="Adding chat server">
+      <created>1486242512304</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1486242512304</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124026000" />
+    <option name="totallyTimeSpent" value="124166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
@@ -955,7 +955,7 @@
             <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#2;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1486242506966" expanded="false" signature="210:222" ph="..." />
+            <marker date="1486242646854" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1038,7 +1038,7 @@
             <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#2;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1486242506966" expanded="false" signature="210:222" ph="..." />
+            <marker date="1486242646854" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1121,7 +1121,7 @@
             <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#2;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1486242506966" expanded="false" signature="210:222" ph="..." />
+            <marker date="1486242646854" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1307,8 +1307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="160" column="16" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
+        <state relative-caret-position="334">
+          <caret line="237" column="38" selection-start-line="237" selection-start-column="38" selection-end-line="237" selection-end-column="38" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1319,7 +1319,7 @@
             <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#2;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1486242506966" expanded="false" signature="210:222" ph="..." />
+            <marker date="1486242646854" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
