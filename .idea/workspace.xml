@@ -62,8 +62,8 @@
       <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="370" column="45" selection-start-line="370" selection-start-column="45" selection-end-line="370" selection-end-column="45" />
+            <state relative-caret-position="387">
+              <caret line="283" column="31" selection-start-line="283" selection-start-column="31" selection-end-line="283" selection-end-column="31" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -85,7 +85,7 @@
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1486245129646" expanded="false" signature="210:222" ph="..." />
+                <marker date="1486245205349" expanded="false" signature="210:222" ph="..." />
               </folding>
             </state>
           </provider>
@@ -518,14 +518,7 @@
       <workItem from="1483617380708" duration="7994000" />
       <workItem from="1483972396491" duration="22221000" />
       <workItem from="1484413103161" duration="595000" />
-      <workItem from="1486241421694" duration="3718000" />
-    </task>
-    <task id="LOCAL-00155" summary="Adding Music App">
-      <created>1483990479401</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1483990479401</updated>
+      <workItem from="1486241421694" duration="3782000" />
     </task>
     <task id="LOCAL-00156" summary="Adding Music App">
       <created>1483990776830</created>
@@ -863,11 +856,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486244952125</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="Rearranging Projects">
+      <created>1486245147698</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1486245147698</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126661000" />
+    <option name="totallyTimeSpent" value="126725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
@@ -978,7 +978,7 @@
             <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1486245129646" expanded="false" signature="210:222" ph="..." />
+            <marker date="1486245205349" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1072,7 +1072,7 @@
             <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1486245129646" expanded="false" signature="210:222" ph="..." />
+            <marker date="1486245205349" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1166,7 +1166,7 @@
             <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1486245129646" expanded="false" signature="210:222" ph="..." />
+            <marker date="1486245205349" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1352,8 +1352,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="370" column="45" selection-start-line="370" selection-start-column="45" selection-end-line="370" selection-end-column="45" />
+        <state relative-caret-position="387">
+          <caret line="283" column="31" selection-start-line="283" selection-start-column="31" selection-end-line="283" selection-end-column="31" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1375,7 +1375,7 @@
             <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1486245129646" expanded="false" signature="210:222" ph="..." />
+            <marker date="1486245205349" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
