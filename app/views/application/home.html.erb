@@ -245,28 +245,12 @@
       position: absolute;
       background-color: black;
     }
-    video#bgvid {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      min-width: 100%;
-      min-height: 100%;
-      width: auto;
-      height: auto;
-      z-index: -100;
-      -ms-transform: translateX(-50%) translateY(-50%);
-      -moz-transform: translateX(-50%) translateY(-50%);
-      -webkit-transform: translateX(-50%) translateY(-50%);
-      transform: translateX(-50%) translateY(-50%);
-      background-size: cover;
-    }
+
   </style>
 
 </header>
 <body style="margin: 0%;font-weight:bold; font-family :Tangerine sans-serif;background-size:100%;">
-<video playsinline autoplay muted loop id="bgvid">
-  <source src= <%= asset_path 'SamirJha.mp4' %>; type="video/mp4">
-</video>
+
 <div class = "container" style="display:block;margin-top: 5%">
   <div id= "row1" class="row">
     <div id="Images" class = "col-md-3" style="padding:0;margin-top:5%;float: left">
