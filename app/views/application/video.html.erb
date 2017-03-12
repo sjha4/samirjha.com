@@ -3,7 +3,7 @@
   <source src= <%= asset_path 'SamirJha.mp4' %>; type="video/mp4">
 </video>
 <div id = "button"></div>
-<%= button_to( home_path, method: :get, :style=>'font-family: Fredericka the Great, sans-serif;float: right' , form: {target: '_blank'}, :class => 'btn btn-danger navbar-btn')  do%>
+<%= button_to( home_path, method: :get, :style=>'font-family: Fredericka the Great, sans-serif;float: right' , :class => 'btn btn-danger navbar-btn')  do%>
     <span class="glyphicon glyphicon-globe" aria-hidden="true"><i> Go to Website</i></span>
 <%end%>
 </div>
