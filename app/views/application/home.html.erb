@@ -1,45 +1,5 @@
 <html>
-<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: transparent;border-color: transparent">
-  <ul class="nav navbar-nav navbar-right">
-    <!--li>
-      <button id="Hide" style="float: left;" class="btn btn-danger navbar-btn"><i>Hide Images!!</i></button>
-    </li-->
-    <li>
-      <button id="Crazy" style="float: left;" class="btn btn-danger navbar-btn"><i>Show all Content</i></button>
-    </li>
-    <li>
-      <button id="AboutMe" style="float: left;" class="btn btn-danger navbar-btn">
-        <span class="glyphicon glyphicon-user" aria-hidden="true"></span> <i id="AboutButtonText"> My Contact</i>
-      </button>
-    </li>
-    <li> </li>
-    <li>
-      <button id="ResumeButton" style="float: left;" class="btn btn-danger navbar-btn" onclick="window.open('https://drive.google.com/file/d/0B4cyXKqW4bliZTRTY3Y1VENSSmc/view?usp=sharing')">
-        <span class="glyphicon glyphicon-file" aria-hidden="true"></span> <i> My Resume</i>
-      </button>
-    </li>
-    <li>
-      <button id ="proj" type="button" style="float: left;animation: spin 5s infinite;" class="btn btn-danger navbar-btn" aria-label="Left Align">
-        <span id ="folder" class="glyphicon glyphicon-folder-close" aria-hidden="true"></span> <i id="ProjText"> See Projects</i>
-      </button>
-    </li>
-    </ul>
-    <ul class="nav navbar-nav navbar-left">
-    <li>
 
-        <%= button_to( music_path, method: :get, :style=>'font-family: Fredericka the Great, sans-serif;float: right' , form: {target: '_blank'}, :class => 'btn btn-danger navbar-btn')  do%>
-          <span class="glyphicon glyphicon-music" aria-hidden="true"><i>Music app</i></span>
-        <%end%>
-        <!--%= link_to 'Call Action', music_path, method: :get %-->
-    </li>
-      <li>
-        <button id="SocialApp" style="float: left;" class="btn btn-danger navbar-btn" onclick="window.open('https://socialnewsverifier.herokuapp.com/')">
-          <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> <i>News Verifier</i>
-        </button>
-      </li>
-    <!--<b id="HireMe"  class="text-primary" style=" color: red;float: right; margin: .1%">Peek Inside <span class="glyphicon glyphicon-arrow-right" aria-hidden="true">  </span> <span class="glyphicon glyphicon-arrow-right" aria-hidden="true">  </span></b> -->
-  </ul>
-</nav>
 <header>
   <style>
     @-moz-keyframes spin {
