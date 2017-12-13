@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="570a8333-1fa9-4378-94a7-e35eaa3400e1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/home.html.erb" afterPath="$PROJECT_DIR$/app/views/application/home.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
     </list>
     <ignored path="untitled6.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,13 +81,16 @@
       <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="252" column="0" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="65" column="111" selection-start-line="65" selection-start-column="111" selection-end-line="65" selection-end-column="111" />
               <folding>
                 <element signature="n#nav#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#3992#4040#0#HTML" expanded="false" />
-                <element signature="e#4389#8494#0#HTML" expanded="false" />
-                <marker date="1513183633171" expanded="false" signature="210:222" ph="..." />
+                <element signature="e#2063#2347#0#HTML" expanded="false" />
+                <element signature="e#2352#2639#0#HTML" expanded="false" />
+                <element signature="e#3996#4044#0#HTML" expanded="false" />
+                <element signature="e#4393#8498#0#HTML" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1513183721497" expanded="false" signature="210:222" ph="..." />
               </folding>
             </state>
           </provider>
@@ -656,7 +658,7 @@
       <workItem from="1511723481319" duration="12103000" />
       <workItem from="1511897004204" duration="2664000" />
       <workItem from="1513120324590" duration="653000" />
-      <workItem from="1513182056783" duration="1170000" />
+      <workItem from="1513182056783" duration="1255000" />
     </task>
     <task id="LOCAL-00173" summary="Making secure">
       <created>1484000443801</created>
@@ -1005,7 +1007,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155189000" />
+    <option name="totallyTimeSpent" value="155274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-8" width="1317" height="772" extended-state="0" />
@@ -1100,9 +1102,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#nav#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#3992#4040#0#HTML" expanded="false" />
-            <element signature="e#4389#8494#0#HTML" expanded="false" />
-            <marker date="1513183633171" expanded="false" signature="210:222" ph="..." />
+            <element signature="e#2063#2347#0#HTML" expanded="false" />
+            <element signature="e#2352#2639#0#HTML" expanded="false" />
+            <element signature="e#3996#4044#0#HTML" expanded="false" />
+            <element signature="e#4393#8498#0#HTML" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1513183721497" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1180,9 +1185,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#nav#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#3992#4040#0#HTML" expanded="false" />
-            <element signature="e#4389#8494#0#HTML" expanded="false" />
-            <marker date="1513183633171" expanded="false" signature="210:222" ph="..." />
+            <element signature="e#2063#2347#0#HTML" expanded="false" />
+            <element signature="e#2352#2639#0#HTML" expanded="false" />
+            <element signature="e#3996#4044#0#HTML" expanded="false" />
+            <element signature="e#4393#8498#0#HTML" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1513183721497" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1260,9 +1268,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#nav#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#3992#4040#0#HTML" expanded="false" />
-            <element signature="e#4389#8494#0#HTML" expanded="false" />
-            <marker date="1513183633171" expanded="false" signature="210:222" ph="..." />
+            <element signature="e#2063#2347#0#HTML" expanded="false" />
+            <element signature="e#2352#2639#0#HTML" expanded="false" />
+            <element signature="e#3996#4044#0#HTML" expanded="false" />
+            <element signature="e#4393#8498#0#HTML" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1513183721497" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1436,14 +1447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/comments/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -1475,15 +1478,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/comments/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="252" column="0" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="65" column="111" selection-start-line="65" selection-start-column="111" selection-end-line="65" selection-end-column="111" />
           <folding>
             <element signature="n#nav#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#3992#4040#0#HTML" expanded="false" />
-            <element signature="e#4389#8494#0#HTML" expanded="false" />
-            <marker date="1513183633171" expanded="false" signature="210:222" ph="..." />
+            <element signature="e#2063#2347#0#HTML" expanded="false" />
+            <element signature="e#2352#2639#0#HTML" expanded="false" />
+            <element signature="e#3996#4044#0#HTML" expanded="false" />
+            <element signature="e#4393#8498#0#HTML" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1513183721497" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
