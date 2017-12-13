@@ -326,7 +326,7 @@
         { "data": "listeners" },
         { "data": "url",
           "render": function ( data, type, full, meta ) {
-            return '<a style="font-weight:bold;animation: mymove 5s infinite;" href="'+data+'" target="_blank">View</a>';}},
+            return '<a style="font-weight:bold;animation: mymove 5s infinite;" href="'+data+'" target="_blank">View Real Time</a>';}},
         { "data": "image",
           "render": function ( data, type, full, meta ) {
             return '<img src= "'+data[2]['#text']+'" style="border-radius: 40%;border-style:dashed; border-width: thick;border-color: black;" </img>';}}
@@ -335,7 +335,7 @@
     } );
     $("#SelectCountry").change(function(){
       com =$(this).find('option:selected').text();
-      table.ajax.url( "https://ws.audioscrobbler.com/2.0/?method=geo.gettoptracks&country="+com+"&api_key=66418c77a86becf1efcbf16f6d1c4402&format=json" ).load();
+      table.ajax.url( "https://ws.audioscrobbler.com/2.0/?method=geo.gettoptracks&country="+com+"&api _key=66418c77a86becf1efcbf16f6d1c4402&format=json" ).load();
     });
   });
 </script>
