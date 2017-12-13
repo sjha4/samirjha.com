@@ -81,8 +81,8 @@
       <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+            <state relative-caret-position="-51">
+              <caret line="86" column="74" selection-start-line="86" selection-start-column="74" selection-end-line="86" selection-end-column="74" />
               <folding>
                 <element signature="n#nav#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#2063#2347#0#HTML" expanded="false" />
@@ -90,10 +90,10 @@
                 <element signature="e#2644#2929#0#HTML" expanded="false" />
                 <element signature="e#2939#2966#0#HTML" expanded="false" />
                 <element signature="e#2976#3148#0#HTML" expanded="false" />
-                <element signature="e#3974#4022#0#HTML" expanded="false" />
-                <element signature="e#4371#8476#0#HTML" expanded="false" />
+                <element signature="e#4233#4281#0#HTML" expanded="false" />
+                <element signature="e#4630#8735#0#HTML" expanded="false" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1513183929138" expanded="false" signature="210:222" ph="..." />
+                <marker date="1513184055700" expanded="false" signature="210:222" ph="..." />
               </folding>
             </state>
           </provider>
@@ -658,7 +658,7 @@
       <workItem from="1511723481319" duration="12103000" />
       <workItem from="1511897004204" duration="2664000" />
       <workItem from="1513120324590" duration="653000" />
-      <workItem from="1513182056783" duration="1461000" />
+      <workItem from="1513182056783" duration="1587000" />
     </task>
     <task id="LOCAL-00173" summary="Making secure">
       <created>1484000443801</created>
@@ -1007,7 +1007,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155480000" />
+    <option name="totallyTimeSpent" value="155606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-8" width="1317" height="772" extended-state="0" />
@@ -1087,7 +1087,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/views/application/home.html.erb</url>
-          <line>180</line>
+          <line>183</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
@@ -1107,10 +1107,10 @@
             <element signature="e#2644#2929#0#HTML" expanded="false" />
             <element signature="e#2939#2966#0#HTML" expanded="false" />
             <element signature="e#2976#3148#0#HTML" expanded="false" />
-            <element signature="e#3974#4022#0#HTML" expanded="false" />
-            <element signature="e#4371#8476#0#HTML" expanded="false" />
+            <element signature="e#4233#4281#0#HTML" expanded="false" />
+            <element signature="e#4630#8735#0#HTML" expanded="false" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1513183929138" expanded="false" signature="210:222" ph="..." />
+            <marker date="1513184055700" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1190,10 +1190,10 @@
             <element signature="e#2644#2929#0#HTML" expanded="false" />
             <element signature="e#2939#2966#0#HTML" expanded="false" />
             <element signature="e#2976#3148#0#HTML" expanded="false" />
-            <element signature="e#3974#4022#0#HTML" expanded="false" />
-            <element signature="e#4371#8476#0#HTML" expanded="false" />
+            <element signature="e#4233#4281#0#HTML" expanded="false" />
+            <element signature="e#4630#8735#0#HTML" expanded="false" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1513183929138" expanded="false" signature="210:222" ph="..." />
+            <marker date="1513184055700" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1273,10 +1273,10 @@
             <element signature="e#2644#2929#0#HTML" expanded="false" />
             <element signature="e#2939#2966#0#HTML" expanded="false" />
             <element signature="e#2976#3148#0#HTML" expanded="false" />
-            <element signature="e#3974#4022#0#HTML" expanded="false" />
-            <element signature="e#4371#8476#0#HTML" expanded="false" />
+            <element signature="e#4233#4281#0#HTML" expanded="false" />
+            <element signature="e#4630#8735#0#HTML" expanded="false" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1513183929138" expanded="false" signature="210:222" ph="..." />
+            <marker date="1513184055700" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1485,8 +1485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+        <state relative-caret-position="-51">
+          <caret line="86" column="74" selection-start-line="86" selection-start-column="74" selection-end-line="86" selection-end-column="74" />
           <folding>
             <element signature="n#nav#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#2063#2347#0#HTML" expanded="false" />
@@ -1494,10 +1494,10 @@
             <element signature="e#2644#2929#0#HTML" expanded="false" />
             <element signature="e#2939#2966#0#HTML" expanded="false" />
             <element signature="e#2976#3148#0#HTML" expanded="false" />
-            <element signature="e#3974#4022#0#HTML" expanded="false" />
-            <element signature="e#4371#8476#0#HTML" expanded="false" />
+            <element signature="e#4233#4281#0#HTML" expanded="false" />
+            <element signature="e#4630#8735#0#HTML" expanded="false" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1513183929138" expanded="false" signature="210:222" ph="..." />
+            <marker date="1513184055700" expanded="false" signature="210:222" ph="..." />
           </folding>
         </state>
       </provider>
