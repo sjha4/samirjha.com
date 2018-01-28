@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="570a8333-1fa9-4378-94a7-e35eaa3400e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/home.html.erb" afterPath="$PROJECT_DIR$/app/views/application/home.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/video.html.erb" afterPath="$PROJECT_DIR$/app/views/application/video.html.erb" />
     </list>
     <ignored path="untitled6.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
+            <state relative-caret-position="918">
               <caret line="403" column="43" selection-start-line="403" selection-start-column="43" selection-end-line="403" selection-end-column="43" />
               <folding>
                 <element signature="n#style#0;n#header#0;n#html#0;n#!!top" expanded="false" />
@@ -126,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="video.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/application/video.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="85">
+              <caret line="5" column="212" selection-start-line="5" selection-start-column="212" selection-end-line="5" selection-end-column="212" />
               <folding />
             </state>
           </provider>
@@ -159,7 +159,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="237">
               <caret line="53" column="66" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
@@ -208,8 +208,8 @@
         <option value="$PROJECT_DIR$/app/views/application/music.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/application/video.html.erb" />
         <option value="$PROJECT_DIR$/app/views/application/home.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/application/video.html.erb" />
       </list>
     </option>
   </component>
@@ -646,7 +646,7 @@
       <workItem from="1511897004204" duration="2664000" />
       <workItem from="1513120324590" duration="653000" />
       <workItem from="1513182056783" duration="6361000" />
-      <workItem from="1517169487210" duration="6173000" />
+      <workItem from="1517169487210" duration="6262000" />
     </task>
     <task id="LOCAL-00173" summary="Making secure">
       <created>1484000443801</created>
@@ -995,7 +995,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166553000" />
+    <option name="totallyTimeSpent" value="166642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-8" width="1317" height="772" extended-state="0" />
@@ -1501,20 +1501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="53" column="66" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1523,17 +1509,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/application/video.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
+        <state relative-caret-position="918">
           <caret line="403" column="43" selection-start-line="403" selection-start-column="43" selection-end-line="403" selection-end-column="43" />
           <folding>
             <element signature="n#style#0;n#header#0;n#html#0;n#!!top" expanded="false" />
@@ -1574,6 +1552,28 @@
             <element signature="n#div#2;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="53" column="66" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/application/video.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="212" selection-start-line="5" selection-start-column="212" selection-end-line="5" selection-end-column="212" />
+          <folding />
         </state>
       </provider>
     </entry>
