@@ -245,7 +245,7 @@
         <b>Web App/APIs</b>
       </button>
       <button id="Rest" type="button" class="btn btn-success">
-        <b>RESTful Webservices</b>
+        <b>Some more Web..</b>
       </button>
       <button id="ML" type="button" class="btn btn-success">
         <b>Machine Learning/ AI</b>
@@ -337,14 +337,7 @@
         </p>
       </div>
 
-      <div id="Project12" class = "col-md-3">
-        <h2 class="text-primary">XML Parser for Salesforce</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/XMLParser')" src="https://theneocomdotcom.files.wordpress.com/2015/02/using-xml-pop_3712.jpg?w=640" style="height: 100%; width: 100%;border-radius: 50%;"/>
-        <br/>
-        <p align="justify"><br/>
-          A simple XML parser for use on Salesforce.
-        </p>
-      </div>
+
 
     </div>
     <div id= "Rests" class="row" style="display:none;">
@@ -368,19 +361,25 @@
           The webservice is implemented using the Play Framework. The integrated Akka Actor Model provides a higher level of abstraction for writing concurrent and distributed systems.
           It alleviates the developer from having to deal
           with explicit locking and thread management, making it easier to write correct concurrent and parallel systems.<br/>
-          Drools is a Business Rules Management System (BRMS) solution.
-          It provides a core Business Rules Engine (BRE), a web authoring and rules management application which can be used for Rule based logging.
         </p>
       </div>
       <div id="Project8" class = "col-md-3">
-        <h2 class="text-primary">News Classifier Service</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/MultiAgentActorReferralWithDrools')" src=<%= asset_path 'fake.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <h2 class="text-primary">Social Media Platform</h2><p><br/></p>
+        <img onclick="window.open('https://github.com/sjha4/FakeNews-Verification')" src=<%= asset_path 'social.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
         <br/>
         <p align="justify"><br/>
-          A Bayesian Multinomial Classifier that make real-time predictions for News.<br/>
-          The trained model is deployed on Heroku and a live RESTful API for quick text-based veracity check is provided.
-          <br/>Example:<br/>
-          To verify a text : <a href="https://classifierrest.herokuapp.com/predict/There%20have%20been%20deadly%20riots%20in%20India%20today" target="_blank">There have been deadly riots in India today</a>
+          <b>A Social Media App for crowdsourced news verification</b>:
+          Allows users to Log in using Facebook, Subscribe to News Sources, Vote on and track news stories. <br/>
+          Backed by strong weighted voting algorithm and Machine learning!
+          <a href="https://socialnewsverifier.herokuapp.com/ " target="_blank">Enough said!! Please become a member!!</a>
+        </p>
+      </div>
+      <div id="Project12" class = "col-md-3">
+        <h2 class="text-primary">XML Parser for Salesforce</h2><p><br/></p>
+        <img onclick="window.open('https://github.com/sjha4/XMLParser')" src="https://theneocomdotcom.files.wordpress.com/2015/02/using-xml-pop_3712.jpg?w=640" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <br/>
+        <p align="justify"><br/>
+          A simple XML parser for use on Salesforce.
         </p>
       </div>
     </div>
@@ -399,6 +398,18 @@
         <br/>
         <p align="justify"><br/>
           Detect and classify species of fish! Sponsored by Kaggle. Find project description here -> <a href="https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring"> Kaggle </a>!
+        </p>
+      </div>
+      <div id="Project8" class = "col-md-3">
+        <h2 class="text-primary">News Classifier </h2><p><br/></p>
+        <img onclick="window.open('https://github.com/sjha4/MultiAgentActorReferralWithDrools')" src=<%= asset_path 'fake.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <br/>
+        <p align="justify"><br/>
+          We have looked for a few datasets to train our veracity analysis model which would be based on the Weka Machine Learning package. We are using 2 following data sets for building our veracity analysis algorithm:
+          <br/><b>Datasets</b><br/>
+          Fake News: Around 60k fake texts and articles. (Courtesy: Kaggle) <br/>
+          Real News: Around 3k real news articles collected from various sources. <br/>
+          We are using the very popular Weka Machine Learning library for our purpose. We have looked at various text analysis methods including n-gram tokenizers. In terms of classification methods, we looked at the id3 Decision Tree vs Bayesian model for our classifier.
         </p>
       </div>
       <div id="Project13" class = "col-md-3">
