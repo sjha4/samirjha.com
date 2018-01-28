@@ -51,8 +51,8 @@
       <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="386" column="140" selection-start-line="386" selection-start-column="140" selection-end-line="386" selection-end-column="140" />
+            <state relative-caret-position="233">
+              <caret line="381" column="27" selection-start-line="381" selection-start-column="27" selection-end-line="381" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#header#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#2320#2810#0#HTML" expanded="false" />
@@ -613,7 +613,7 @@
       <workItem from="1511897004204" duration="2664000" />
       <workItem from="1513120324590" duration="653000" />
       <workItem from="1513182056783" duration="6361000" />
-      <workItem from="1517169487210" duration="5133000" />
+      <workItem from="1517169487210" duration="5375000" />
     </task>
     <task id="LOCAL-00173" summary="Making secure">
       <created>1484000443801</created>
@@ -962,7 +962,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165513000" />
+    <option name="totallyTimeSpent" value="165755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-8" width="1317" height="772" extended-state="0" />
@@ -1466,8 +1466,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="386" column="140" selection-start-line="386" selection-start-column="140" selection-end-line="386" selection-end-column="140" />
+        <state relative-caret-position="233">
+          <caret line="381" column="27" selection-start-line="381" selection-start-column="27" selection-end-line="381" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#header#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#2320#2810#0#HTML" expanded="false" />
