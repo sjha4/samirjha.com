@@ -51,8 +51,8 @@
       <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="367" column="81" selection-start-line="367" selection-start-column="81" selection-end-line="367" selection-end-column="81" />
+            <state relative-caret-position="223">
+              <caret line="406" column="32" selection-start-line="406" selection-start-column="32" selection-end-line="406" selection-end-column="32" />
               <folding>
                 <element signature="e#30#314#0#HTML" expanded="false" />
                 <element signature="e#319#606#0#HTML" expanded="false" />
@@ -650,7 +650,7 @@
       <workItem from="1511897004204" duration="2664000" />
       <workItem from="1513120324590" duration="653000" />
       <workItem from="1513182056783" duration="6361000" />
-      <workItem from="1517169487210" duration="8425000" />
+      <workItem from="1517169487210" duration="8540000" />
     </task>
     <task id="LOCAL-00173" summary="Making secure">
       <created>1484000443801</created>
@@ -999,7 +999,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168805000" />
+    <option name="totallyTimeSpent" value="168920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-8" width="1317" height="772" extended-state="0" />
@@ -1545,8 +1545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="367" column="81" selection-start-line="367" selection-start-column="81" selection-end-line="367" selection-end-column="81" />
+        <state relative-caret-position="223">
+          <caret line="406" column="32" selection-start-line="406" selection-start-column="32" selection-end-line="406" selection-end-column="32" />
           <folding>
             <element signature="e#30#314#0#HTML" expanded="false" />
             <element signature="e#319#606#0#HTML" expanded="false" />
