@@ -119,34 +119,45 @@
 
 
       })
-      $("#NextProj1").click( function(){
-        $("#row3").css("display","none")
-        $("#row4").css("display","block")
-        $("#row5").css("display","none")
-        $("#row6").css("display","none")
+      $("#System").click( function(){
+        $("#Systems").css("display","block")
+        $("#Networks").css("display","none")
+        $("#Webs").css("display","none")
+        $("#Rests").css("display","none")
+        $("#MLs").css("display","none")
 
       })
-      $("#PrevProj1").click( function(){
-        $("#row4").css("display","none")
-        $("#row3").css("display","block")
-        $("#row5").css("display","none")
-        $("#row6").css("display","none")
+      $("#Network").click( function(){
+        $("#Systems").css("display","none")
+        $("#Networks").css("display","block")
+        $("#Webs").css("display","none")
+        $("#Rests").css("display","none")
+        $("#MLs").css("display","none")
 
       })
-      $("#NextProj2").click( function(){
-        $("#row4").css("display","none")
-        $("#row3").css("display","none")
-        $("#row5").css("display","block")
-        $("#row6").css("display","none")
-
+      $("#Web").click( function(){
+        $("#Systems").css("display","none")
+        $("#Networks").css("display","none")
+        $("#Webs").css("display","block")
+        $("#Rests").css("display","none")
+        $("#MLs").css("display","none")
 
       })
-      $("#NextProj3").click( function(){
-        $("#row4").css("display","none")
-        $("#row3").css("display","none")
-        $("#row5").css("display","none")
-        $("#row6").css("display","block")
+      $("#Rest").click( function(){
+        $("#Systems").css("display","none")
+        $("#Networks").css("display","none")
+        $("#Webs").css("display","none")
+        $("#Rests").css("display","block")
+        $("#MLs").css("display","none")
 
+      })
+
+      $("#ML").click( function(){
+        $("#Systems").css("display","none")
+        $("#Networks").css("display","none")
+        $("#Webs").css("display","none")
+        $("#Rests").css("display","none")
+        $("#MLs").css("display","block")
 
       })
       $("#Hide").click(function(){
@@ -224,21 +235,24 @@
   <div id= "row2" style="display:none;margin-top: 5%;height:100%">
     <h2 class="text-primary">Projects</h2>
     <div id="buttonDiv" style="align-items: center">
-      <button id="PrevProj1" type="button" class="btn btn-success">
+      <button id="System" type="button" class="btn btn-success">
         <b>Systems</b>
       </button>
-      <button id="NextProj1" type="button" class="btn btn-success">
+      <button id="Network" type="button" class="btn btn-success">
         <b>Networks</b>
       </button>
-      <button id="NextProj2" type="button" class="btn btn-success">
+      <button id="Web" type="button" class="btn btn-success">
         <b>Web App/APIs</b>
       </button>
-      <button id="NextProj3" type="button" class="btn btn-success">
+      <button id="Rest" type="button" class="btn btn-success">
+        <b>RESTful Webservices</b>
+      </button>
+      <button id="ML" type="button" class="btn btn-success">
         <b>Machine Learning/ AI</b>
       </button>
       <p><br/></p>
     </div>
-    <div id= "row3" class="row" style="display:block;">
+    <div id= "Systems" class="row" style="display:block;">
       <div id="Project1" class = "col-md-3">
         <h2 class="text-primary">User-Level Threading Library</h2><p><br/></p>
         <img onclick="window.open('https://github.com/sjha4/Custom-non-pre-emptive-user-level-threading-library')" src="http://www.thepaintedtiger.com/images/large/IMG_6225.JPG" style="height: 100%; width: 100%;border-radius: 50%;"/>
@@ -276,7 +290,7 @@
         </p>
       </div>
     </div>
-    <div id= "row4" class="row" style="display:none;">
+    <div id= "Networks" class="row" style="display:none;">
       <div id="Project5" class = "col-md-4">
         <h2 class="text-primary">Service Chaining using OpenFlow (SDN)</h2><p><br/></p>
         <img onclick="window.open('https://docs.google.com/document/d/1dIzr8OCAM-sghQRwgewDO1gyNZxBsI4DMFC1EQTBt2M/edit?usp=sharing')" src="http://media.bestofmicro.com/F/I/460638/gallery/Software-Defined-Network_w_640.jpg" style="height: 100%; width: 100%;border-radius: 50%;"/>
@@ -295,7 +309,7 @@
         </p>
       </div>
     </div>
-    <div id= "row5" class="row" style="display:none;">
+    <div id= "Webs" class="row" style="display:none;">
       <div id="Project6" class = "col-md-4">
         <h2 class="text-primary">Expertiza - Open Source</h2><p><br/></p>
         <img onclick="window.open('https://expertiza.ncsu.edu/')" src="https://kassieskorner.files.wordpress.com/2015/03/tuffy.jpg?w=640" style="height: 100%; width: 100%;border-radius: 50%;"/>
@@ -313,15 +327,7 @@
           Because Rails on Heroku is fast!!
         </p>
       </div>
-      <div class="w-100"></div>
-      <div id="Project7" class = "col-md-4">
-        <h2 class="text-primary">Analysis of Real time trends</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/Identification-and-Analysis-of-popular-trends-around-the-world')" src="<%= asset_path 'Twitter.jpg' %>" style="height: 100%; width: 100%;border-radius: 50%;"/>
-        <br/>
-        <p align="justify"><br/>
-          Because Rails on Heroku is fast!!
-        </p>
-      </div>
+
       <div id="Project8" class = "col-md-4">
         <h2 class="text-primary">Music Top Charts (Top 50)</h2><p><br/></p>
         <img onclick="window.open('https://samirjha.herokuapp.com/music?')" src="http://zdnet3.cbsistatic.com/hub/i/r/2016/09/01/7091ca46-3139-4874-9840-33278c3174f6/thumbnail/770x578/0a42b2388eddc82d3ffe1a72a16aa0e1/last-fm-hero.jpg" style="height: 100%; width: 100%;border-radius: 50%;"/>
@@ -330,8 +336,7 @@
           Top 50 chartbusters from your country!! Data synced from <a href="https://www.last.fm"> last.fm </a>!
         </p>
       </div>
-      <div id= "row5" class="row" style="display:none;">
-      <div class="w-100"></div>
+
       <div id="Project12" class = "col-md-4">
         <h2 class="text-primary">XML Parser for Salesforce</h2><p><br/></p>
         <img onclick="window.open('https://github.com/sjha4/XMLParser')" src="https://theneocomdotcom.files.wordpress.com/2015/02/using-xml-pop_3712.jpg?w=640" style="height: 100%; width: 100%;border-radius: 50%;"/>
@@ -342,7 +347,17 @@
       </div>
 
     </div>
-    <div id= "row6" class="row" style="display:none;">
+    <div id= "Rests" class="row" style="display:none;">
+      <div id="Project7" class = "col-md-4">
+        <h2 class="text-primary">Analysis of Real time trends</h2><p><br/></p>
+        <img onclick="window.open('https://github.com/sjha4/Identification-and-Analysis-of-popular-trends-around-the-world')" src="<%= asset_path 'Twitter.jpg' %>" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <br/>
+        <p align="justify"><br/>
+          Because Rails on Heroku is fast!!
+        </p>
+      </div>
+    </div>
+    <div id= "MLs" class="row" style="display:none;">
       <div id="Project10" class = "col-md-4">
         <h2 class="text-primary">Heuristic Graph Search - A* for Romania!</h2><p><br/></p>
         <img onclick="window.open('https://github.com/sjha4/HeuristicGraphPathFinding')" src="http://aiandgames.com/wp-content/uploads/2015/12/Romania.png" style="height: 100%; width: 100%;border-radius: 50%;"/>
