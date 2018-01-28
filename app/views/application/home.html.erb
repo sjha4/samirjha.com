@@ -125,6 +125,7 @@
         $("#Webs").css("display","none")
         $("#Rests").css("display","none")
         $("#MLs").css("display","none")
+        $("#AIs").css("display","none")
 
       })
       $("#Network").click( function(){
@@ -133,7 +134,7 @@
         $("#Webs").css("display","none")
         $("#Rests").css("display","none")
         $("#MLs").css("display","none")
-
+        $("#AIs").css("display","none")
       })
       $("#Web").click( function(){
         $("#Systems").css("display","none")
@@ -141,7 +142,7 @@
         $("#Webs").css("display","block")
         $("#Rests").css("display","none")
         $("#MLs").css("display","none")
-
+        $("#AIs").css("display","none")
       })
       $("#Rest").click( function(){
         $("#Systems").css("display","none")
@@ -149,16 +150,23 @@
         $("#Webs").css("display","none")
         $("#Rests").css("display","block")
         $("#MLs").css("display","none")
-
+        $("#AIs").css("display","none")
       })
-
       $("#ML").click( function(){
         $("#Systems").css("display","none")
         $("#Networks").css("display","none")
         $("#Webs").css("display","none")
         $("#Rests").css("display","none")
         $("#MLs").css("display","block")
-
+        $("#AIs").css("display","none")
+      })
+      $("#AI").click( function(){
+        $("#Systems").css("display","none")
+        $("#Networks").css("display","none")
+        $("#Webs").css("display","none")
+        $("#Rests").css("display","none")
+        $("#MLs").css("display","none")
+        $("#AIs").css("display","block")
       })
       $("#Hide").click(function(){
         var div = $("img")
@@ -236,13 +244,16 @@
     <h2 class="text-primary">Projects</h2>
     <div id="buttonDiv" style="align-items: center">
       <button id="Web" type="button" class="btn btn-success">
-        <b>Web App/APIs</b>
+        <b>Web/Mobile Apps and APIs</b>
       </button>
       <button id="Rest" type="button" class="btn btn-success">
-        <b>More Web..</b>
+        <b>Some more Web..</b>
       </button>
       <button id="ML" type="button" class="btn btn-success">
         <b>Machine Learning/ AI</b>
+      </button>
+      <button id="AI" type="button" class="btn btn-success">
+        <b>Some more ML..</b>
       </button>
       <button id="System" type="button" class="btn btn-success">
         <b>Systems</b>
@@ -253,7 +264,7 @@
 
       <p><br/></p>
     </div>
-    <div id= "Webs" class="row" style="display:none;">
+    <div id= "Webs" class="row" style="display:block;">
       <div id="Social" class = "col-md-3">
         <h2 class="text-primary">Social Media Platform</h2><p><br/></p>
         <img onclick="window.open('https://github.com/sjha4/FakeNews-Verification')" src=<%= asset_path 'social.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
@@ -357,7 +368,41 @@
         </p>
       </div>
     </div>
-    <div id= "Systems" class="row" style="display:block;">
+    <div id= "AIs" class="row" style="display:none;">
+      <div id="Project10" class = "col-md-3">
+        <h2 class="text-primary">Heuristic Graph Search - A* for Romania!</h2><p><br/></p>
+        <img onclick="window.open('https://github.com/sjha4/HeuristicGraphPathFinding')" src="http://aiandgames.com/wp-content/uploads/2015/12/Romania.png" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <br/>
+        <p align="justify"><br/>
+          Graph based minimum path finding using heuristics! A* , BFS and DFS!
+        </p>
+      </div>
+      <div id="Project11" class = "col-md-3">
+        <h2 class="text-primary"><b>ML</b> - Nature Conservancy Fisheries Monitoring</h2><p><br/></p>
+        <img onclick="window.open('https://kaggle2.blob.core.windows.net/competitions/kaggle/5568/media/TNC.mp4')" src="http://www.un.org/News/dh/photos/large/2012/May/05-17-2012seafood.jpg" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <br/>
+        <p align="justify"><br/>
+          Detect and classify species of fish! Sponsored by Kaggle. Find project description here -> <a href="https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring"> Kaggle </a>!
+        </p>
+      </div>
+      <div id="Project8" class = "col-md-3">
+        <h2 class="text-primary">News Classifier </h2><p><br/></p>
+        <img onclick="window.open('https://github.com/sjha4/MultiAgentActorReferralWithDrools')" src=<%= asset_path 'fake.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <br/>
+        <p align="justify"><br/>
+          We are using the very popular Weka Machine Learning library for our purpose. We have looked at various text analysis methods including n-gram tokenizers. In terms of classification methods, we looked at the id3 Decision Tree vs Bayesian model for our classifier.
+        </p>
+      </div>
+      <div id="Project13" class = "col-md-3">
+        <h2 class="text-primary"><b>ML</b> - Bisecting Kmeans</h2><p><br/></p>
+        <img onclick="window.open('https://github.com/sjha4/BisectingKMeans')" src="https://image.slidesharecdn.com/k-means-141207004407-conversion-gate01/95/k-means-20-638.jpg?cb=1417913147" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <br/>
+        <p align="justify"><br/>
+          An improved algorithm for K-means in R to reduce SSE of clustering found.
+        </p>
+      </div>
+    </div>
+    <div id= "Systems" class="row" style="display:none;">
       <div id="Project1" class = "col-md-3">
         <h2 class="text-primary">User-Level Threading Library</h2><p><br/></p>
         <img onclick="window.open('https://github.com/sjha4/Custom-non-pre-emptive-user-level-threading-library')" src="http://www.thepaintedtiger.com/images/large/IMG_6225.JPG" style="height: 100%; width: 100%;border-radius: 50%;"/>
