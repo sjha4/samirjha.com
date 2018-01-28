@@ -51,14 +51,7 @@
     </ul>
     <ul class="nav navbar-nav navbar-left">
       <li>
-
-        <%= button_to( music_path, method: :get, :style=>'font-family: Fredericka the Great, sans-serif;float: right' , form: {target: '_blank'}, :class => 'btn btn-danger navbar-btn')  do%>
-            <span class="glyphicon glyphicon-music" aria-hidden="true"><i>Music app</i></span>
-        <%end%>
-        <!--%= link_to 'Call Action', music_path, method: :get %-->
-      </li>
-      <li>
-        <button id="SocialApp" style="float: left;" class="btn btn-danger navbar-btn" onclick="window.open('https://socialnewsverifier.herokuapp.com/')">
+        <button id="SocialApp" style="animation: spin 5s infinite;float: left;" class="btn btn-danger navbar-btn" onclick="window.open('https://socialnewsverifier.herokuapp.com/')">
           <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> <i>News Verifier</i>
         </button>
       </li>
