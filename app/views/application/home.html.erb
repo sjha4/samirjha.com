@@ -245,7 +245,7 @@
         <b>Web App/APIs</b>
       </button>
       <button id="Rest" type="button" class="btn btn-success">
-        <b>Some more Web..</b>
+        <b>More Web..</b>
       </button>
       <button id="ML" type="button" class="btn btn-success">
         <b>Machine Learning/ AI</b>
@@ -310,38 +310,18 @@
       </div>
     </div>
     <div id= "Webs" class="row" style="display:none;">
-      <div id="Project6" class = "col-md-3">
-        <h2 class="text-primary">Expertiza - Open Source</h2><p><br/></p>
-        <img onclick="window.open('https://expertiza.ncsu.edu/')" src="https://kassieskorner.files.wordpress.com/2015/03/tuffy.jpg?w=640" style="height: 100%; width: 100%;border-radius: 50%;"/>
-        <br/>
-        <p align="justify"><br/>	Implemented logging console for the expertiza web app developed on
-          Ruby on rails. <a href="https://www.youtube.com/watch?v=v-Q5fRYLju0">Link</a> to Youtube video explaining the project.
-          Wait till you hear my name!!
-        </p>
-      </div>
-      <div id="Project7" class = "col-md-3">
-        <h2 class="text-primary">My Personal Website - This!</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/My-Website-On-Rails')" src=<%= asset_path 'mysite.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
+      <div id="Social" class = "col-md-3">
+        <h2 class="text-primary">Social Media Platform</h2><p><br/></p>
+        <img onclick="window.open('https://github.com/sjha4/FakeNews-Verification')" src=<%= asset_path 'social.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
         <br/>
         <p align="justify"><br/>
-          Because Rails on Heroku is fast!!
+          <b>A Social Media App for crowdsourced news verification</b>:
+          Allows users to Log in using Facebook, Subscribe to News Sources, Vote on and track news stories. <br/>
+          Backed by strong weighted voting algorithm and Machine learning!
+          <a href="https://socialnewsverifier.herokuapp.com/ " target="_blank">Enough said!! Please become a member!!</a>
         </p>
       </div>
-
-      <div id="Project8" class = "col-md-3">
-        <h2 class="text-primary">Music Top Charts (Top 50)</h2><p><br/></p>
-        <img onclick="window.open('https://samirjha.herokuapp.com/music?')" src="http://zdnet3.cbsistatic.com/hub/i/r/2016/09/01/7091ca46-3139-4874-9840-33278c3174f6/thumbnail/770x578/0a42b2388eddc82d3ffe1a72a16aa0e1/last-fm-hero.jpg" style="height: 100%; width: 100%;border-radius: 50%;"/>
-        <br/>
-        <p align="justify"><br/>
-          Top 50 chartbusters from your country!! Data synced from <a href="https://www.last.fm"> last.fm </a>!
-        </p>
-      </div>
-
-
-
-    </div>
-    <div id= "Rests" class="row" style="display:none;">
-      <div id="Project7" class = "col-md-3">
+      <div id="AWS" class = "col-md-3">
         <h2 class="text-primary">AWS + DynamoDB API endpoints</h2><p><br/></p>
         <img onclick="window.open('https://github.com/sjha4/Identification-and-Analysis-of-popular-trends-around-the-world')" src=<%= asset_path 'aws.JPG' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
         <br/>
@@ -353,7 +333,16 @@
           <a href="https://dic8realtime-dashboard.herokuapp.com" target="_blank">Dashboard</a>
         </p>
       </div>
-      <div id="Project8" class = "col-md-3">
+      <div id="Expertiza" class = "col-md-3">
+        <h2 class="text-primary">Expertiza - Open Source</h2><p><br/></p>
+        <img onclick="window.open('https://expertiza.ncsu.edu/')" src="https://kassieskorner.files.wordpress.com/2015/03/tuffy.jpg?w=640" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <br/>
+        <p align="justify"><br/>	Implemented logging console for the expertiza web app developed on
+          Ruby on rails. <a href="https://www.youtube.com/watch?v=v-Q5fRYLju0">Link</a> to Youtube video explaining the project.
+          Wait till you hear my name!!
+        </p>
+      </div>
+      <div id="MultiAgent" class = "col-md-3">
         <h2 class="text-primary">Multiagent Restful API</h2><p><br/></p>
         <img onclick="window.open('https://github.com/sjha4/MultiAgentActorReferralWithDrools')" src=<%= asset_path 'playakka.png' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
         <br/>
@@ -363,18 +352,28 @@
           with explicit locking and thread management, making it easier to write correct concurrent and parallel systems.<br/>
         </p>
       </div>
-      <div id="Project8" class = "col-md-3">
-        <h2 class="text-primary">Social Media Platform</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/FakeNews-Verification')" src=<%= asset_path 'social.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
+
+    </div>
+    <div id= "Rests" class="row" style="display:none;">
+
+
+      <div id="Mysite" class = "col-md-3">
+        <h2 class="text-primary">My Personal Website - This!</h2><p><br/></p>
+        <img onclick="window.open('https://github.com/sjha4/My-Website-On-Rails')" src=<%= asset_path 'mysite.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
         <br/>
         <p align="justify"><br/>
-          <b>A Social Media App for crowdsourced news verification</b>:
-          Allows users to Log in using Facebook, Subscribe to News Sources, Vote on and track news stories. <br/>
-          Backed by strong weighted voting algorithm and Machine learning!
-          <a href="https://socialnewsverifier.herokuapp.com/ " target="_blank">Enough said!! Please become a member!!</a>
+          Because Rails on Heroku is fast!!
         </p>
       </div>
-      <div id="Project12" class = "col-md-3">
+      <div id="Music" class = "col-md-3">
+        <h2 class="text-primary">Music Top Charts (Top 50)</h2><p><br/></p>
+        <img onclick="window.open('https://samirjha.herokuapp.com/music?')" src="http://zdnet3.cbsistatic.com/hub/i/r/2016/09/01/7091ca46-3139-4874-9840-33278c3174f6/thumbnail/770x578/0a42b2388eddc82d3ffe1a72a16aa0e1/last-fm-hero.jpg" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <br/>
+        <p align="justify"><br/>
+          Top 50 chartbusters from your country!! Data synced from <a href="https://www.last.fm"> last.fm </a>!
+        </p>
+      </div>
+      <div id="XMLParser" class = "col-md-3">
         <h2 class="text-primary">XML Parser for Salesforce</h2><p><br/></p>
         <img onclick="window.open('https://github.com/sjha4/XMLParser')" src="https://theneocomdotcom.files.wordpress.com/2015/02/using-xml-pop_3712.jpg?w=640" style="height: 100%; width: 100%;border-radius: 50%;"/>
         <br/>
