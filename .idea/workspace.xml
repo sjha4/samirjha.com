@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="570a8333-1fa9-4378-94a7-e35eaa3400e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/untitled6.iml" afterPath="$PROJECT_DIR$/.idea/untitled6.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/home.html.erb" afterPath="$PROJECT_DIR$/app/views/application/home.html.erb" />
     </list>
     <ignored path="untitled6.iws" />
@@ -56,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="252" column="171" selection-start-line="252" selection-start-column="171" selection-end-line="252" selection-end-column="171" />
+              <caret line="252" column="143" selection-start-line="252" selection-start-column="143" selection-end-line="252" selection-end-column="143" />
               <folding />
             </state>
           </provider>
@@ -540,7 +536,7 @@
       <workItem from="1511897004204" duration="2664000" />
       <workItem from="1513120324590" duration="653000" />
       <workItem from="1513182056783" duration="6361000" />
-      <workItem from="1517169487210" duration="152000" />
+      <workItem from="1517169487210" duration="544000" />
     </task>
     <task id="LOCAL-00173" summary="Making secure">
       <created>1484000443801</created>
@@ -889,7 +885,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160532000" />
+    <option name="totallyTimeSpent" value="160924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-8" width="1317" height="772" extended-state="0" />
@@ -1336,7 +1332,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="252" column="171" selection-start-line="252" selection-start-column="171" selection-end-line="252" selection-end-column="171" />
+          <caret line="252" column="143" selection-start-line="252" selection-start-column="143" selection-end-line="252" selection-end-column="143" />
           <folding />
         </state>
       </provider>
