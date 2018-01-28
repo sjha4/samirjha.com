@@ -51,9 +51,15 @@
       <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
+            <state relative-caret-position="2329">
               <caret line="403" column="43" selection-start-line="403" selection-start-column="43" selection-end-line="403" selection-end-column="43" />
               <folding>
+                <element signature="e#30#314#0#HTML" expanded="false" />
+                <element signature="e#319#606#0#HTML" expanded="false" />
+                <element signature="e#611#896#0#HTML" expanded="false" />
+                <element signature="e#906#933#0#HTML" expanded="false" />
+                <element signature="e#943#1115#0#HTML" expanded="false" />
+                <element signature="e#1133#1267#0#HTML" expanded="false" />
                 <element signature="e#2320#2810#0#HTML" expanded="false" />
                 <element signature="e#2846#3600#0#HTML" expanded="false" />
                 <element signature="e#3276#3590#0#HTML" expanded="false" />
@@ -157,10 +163,9 @@
       <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="53" column="117" selection-start-line="53" selection-start-column="117" selection-end-line="53" selection-end-column="117" />
+            <state relative-caret-position="104">
+              <caret line="46" column="112" selection-start-line="46" selection-start-column="112" selection-end-line="46" selection-end-column="112" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#1;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#3;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -645,7 +650,7 @@
       <workItem from="1511897004204" duration="2664000" />
       <workItem from="1513120324590" duration="653000" />
       <workItem from="1513182056783" duration="6361000" />
-      <workItem from="1517169487210" duration="6357000" />
+      <workItem from="1517169487210" duration="6553000" />
     </task>
     <task id="LOCAL-00173" summary="Making secure">
       <created>1484000443801</created>
@@ -994,13 +999,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166737000" />
+    <option name="totallyTimeSpent" value="166933000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-8" width="1317" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1734288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1734288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.081566066" sideWeight="0.73190135" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.099375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1095,7 +1100,6 @@
         <state relative-caret-position="187">
           <caret line="11" column="97" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="97" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#1;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#3;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1136,6 +1140,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#30#314#0#HTML" expanded="false" />
+            <element signature="e#319#606#0#HTML" expanded="false" />
+            <element signature="e#611#896#0#HTML" expanded="false" />
+            <element signature="e#906#933#0#HTML" expanded="false" />
+            <element signature="e#943#1115#0#HTML" expanded="false" />
+            <element signature="e#1133#1267#0#HTML" expanded="false" />
             <element signature="e#2320#2810#0#HTML" expanded="false" />
             <element signature="e#2846#3600#0#HTML" expanded="false" />
             <element signature="e#3276#3590#0#HTML" expanded="false" />
@@ -1209,7 +1219,6 @@
         <state relative-caret-position="102">
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#1;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#3;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1250,6 +1259,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#30#314#0#HTML" expanded="false" />
+            <element signature="e#319#606#0#HTML" expanded="false" />
+            <element signature="e#611#896#0#HTML" expanded="false" />
+            <element signature="e#906#933#0#HTML" expanded="false" />
+            <element signature="e#943#1115#0#HTML" expanded="false" />
+            <element signature="e#1133#1267#0#HTML" expanded="false" />
             <element signature="e#2320#2810#0#HTML" expanded="false" />
             <element signature="e#2846#3600#0#HTML" expanded="false" />
             <element signature="e#3276#3590#0#HTML" expanded="false" />
@@ -1301,7 +1316,6 @@
         <state relative-caret-position="187">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#1;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#3;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1473,14 +1487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/application/_comment_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/images/Thread.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1515,11 +1521,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/application/_comment_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
+        <state relative-caret-position="2329">
           <caret line="403" column="43" selection-start-line="403" selection-start-column="43" selection-end-line="403" selection-end-column="43" />
           <folding>
+            <element signature="e#30#314#0#HTML" expanded="false" />
+            <element signature="e#319#606#0#HTML" expanded="false" />
+            <element signature="e#611#896#0#HTML" expanded="false" />
+            <element signature="e#906#933#0#HTML" expanded="false" />
+            <element signature="e#943#1115#0#HTML" expanded="false" />
+            <element signature="e#1133#1267#0#HTML" expanded="false" />
             <element signature="e#2320#2810#0#HTML" expanded="false" />
             <element signature="e#2846#3600#0#HTML" expanded="false" />
             <element signature="e#3276#3590#0#HTML" expanded="false" />
@@ -1561,10 +1581,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="53" column="117" selection-start-line="53" selection-start-column="117" selection-end-line="53" selection-end-column="117" />
+        <state relative-caret-position="104">
+          <caret line="46" column="112" selection-start-line="46" selection-start-column="112" selection-end-line="46" selection-end-column="112" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#1;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#3;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
