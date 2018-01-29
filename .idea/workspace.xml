@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="570a8333-1fa9-4378-94a7-e35eaa3400e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/home.html.erb" afterPath="$PROJECT_DIR$/app/views/application/home.html.erb" />
     </list>
     <ignored path="untitled6.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,25 +48,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+            <state relative-caret-position="272">
+              <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
               <folding>
-                <element signature="e#696#723#0#HTML" expanded="false" />
-                <element signature="e#733#905#0#HTML" expanded="false" />
-                <element signature="e#923#1057#0#HTML" expanded="false" />
-                <element signature="e#1696#6724#0#HTML" expanded="false" />
-                <element signature="e#1734#2224#0#HTML" expanded="false" />
-                <element signature="e#3052#3315#0#HTML" expanded="false" />
-                <element signature="e#3354#3616#0#HTML" expanded="false" />
-                <element signature="e#3651#3913#0#HTML" expanded="false" />
-                <element signature="e#3949#4211#0#HTML" expanded="false" />
-                <element signature="e#4245#4507#0#HTML" expanded="false" />
-                <element signature="e#4541#4803#0#HTML" expanded="false" />
-                <element signature="e#4838#6598#0#HTML" expanded="false" />
-                <element signature="e#6642#6716#0#HTML" expanded="false" />
+                <element signature="e#678#705#0#HTML" expanded="false" />
+                <element signature="e#715#887#0#HTML" expanded="false" />
+                <element signature="e#905#1039#0#HTML" expanded="false" />
+                <element signature="e#1678#6706#0#HTML" expanded="false" />
+                <element signature="e#1716#2206#0#HTML" expanded="false" />
+                <element signature="e#3034#3297#0#HTML" expanded="false" />
+                <element signature="e#3336#3598#0#HTML" expanded="false" />
+                <element signature="e#3633#3895#0#HTML" expanded="false" />
+                <element signature="e#3931#4193#0#HTML" expanded="false" />
+                <element signature="e#4227#4489#0#HTML" expanded="false" />
+                <element signature="e#4523#4785#0#HTML" expanded="false" />
+                <element signature="e#4820#6580#0#HTML" expanded="false" />
+                <element signature="e#6624#6698#0#HTML" expanded="false" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#button#4;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -171,7 +171,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -223,8 +223,8 @@
         <option value="$PROJECT_DIR$/app/views/application/music.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/application/video.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/application/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/application/home.html.erb" />
       </list>
     </option>
   </component>
@@ -661,7 +661,7 @@
       <workItem from="1511897004204" duration="2664000" />
       <workItem from="1513120324590" duration="653000" />
       <workItem from="1513182056783" duration="6361000" />
-      <workItem from="1517169487210" duration="14604000" />
+      <workItem from="1517169487210" duration="14693000" />
     </task>
     <task id="LOCAL-00173" summary="Making secure">
       <created>1484000443801</created>
@@ -1010,7 +1010,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174984000" />
+    <option name="totallyTimeSpent" value="175073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-8" width="1317" height="772" extended-state="0" />
@@ -1156,19 +1156,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#696#723#0#HTML" expanded="false" />
-            <element signature="e#733#905#0#HTML" expanded="false" />
-            <element signature="e#923#1057#0#HTML" expanded="false" />
-            <element signature="e#1696#6724#0#HTML" expanded="false" />
-            <element signature="e#1734#2224#0#HTML" expanded="false" />
-            <element signature="e#3052#3315#0#HTML" expanded="false" />
-            <element signature="e#3354#3616#0#HTML" expanded="false" />
-            <element signature="e#3651#3913#0#HTML" expanded="false" />
-            <element signature="e#3949#4211#0#HTML" expanded="false" />
-            <element signature="e#4245#4507#0#HTML" expanded="false" />
-            <element signature="e#4541#4803#0#HTML" expanded="false" />
-            <element signature="e#4838#6598#0#HTML" expanded="false" />
-            <element signature="e#6642#6716#0#HTML" expanded="false" />
+            <element signature="e#678#705#0#HTML" expanded="false" />
+            <element signature="e#715#887#0#HTML" expanded="false" />
+            <element signature="e#905#1039#0#HTML" expanded="false" />
+            <element signature="e#1678#6706#0#HTML" expanded="false" />
+            <element signature="e#1716#2206#0#HTML" expanded="false" />
+            <element signature="e#3034#3297#0#HTML" expanded="false" />
+            <element signature="e#3336#3598#0#HTML" expanded="false" />
+            <element signature="e#3633#3895#0#HTML" expanded="false" />
+            <element signature="e#3931#4193#0#HTML" expanded="false" />
+            <element signature="e#4227#4489#0#HTML" expanded="false" />
+            <element signature="e#4523#4785#0#HTML" expanded="false" />
+            <element signature="e#4820#6580#0#HTML" expanded="false" />
+            <element signature="e#6624#6698#0#HTML" expanded="false" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#button#4;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1286,19 +1286,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#696#723#0#HTML" expanded="false" />
-            <element signature="e#733#905#0#HTML" expanded="false" />
-            <element signature="e#923#1057#0#HTML" expanded="false" />
-            <element signature="e#1696#6724#0#HTML" expanded="false" />
-            <element signature="e#1734#2224#0#HTML" expanded="false" />
-            <element signature="e#3052#3315#0#HTML" expanded="false" />
-            <element signature="e#3354#3616#0#HTML" expanded="false" />
-            <element signature="e#3651#3913#0#HTML" expanded="false" />
-            <element signature="e#3949#4211#0#HTML" expanded="false" />
-            <element signature="e#4245#4507#0#HTML" expanded="false" />
-            <element signature="e#4541#4803#0#HTML" expanded="false" />
-            <element signature="e#4838#6598#0#HTML" expanded="false" />
-            <element signature="e#6642#6716#0#HTML" expanded="false" />
+            <element signature="e#678#705#0#HTML" expanded="false" />
+            <element signature="e#715#887#0#HTML" expanded="false" />
+            <element signature="e#905#1039#0#HTML" expanded="false" />
+            <element signature="e#1678#6706#0#HTML" expanded="false" />
+            <element signature="e#1716#2206#0#HTML" expanded="false" />
+            <element signature="e#3034#3297#0#HTML" expanded="false" />
+            <element signature="e#3336#3598#0#HTML" expanded="false" />
+            <element signature="e#3633#3895#0#HTML" expanded="false" />
+            <element signature="e#3931#4193#0#HTML" expanded="false" />
+            <element signature="e#4227#4489#0#HTML" expanded="false" />
+            <element signature="e#4523#4785#0#HTML" expanded="false" />
+            <element signature="e#4820#6580#0#HTML" expanded="false" />
+            <element signature="e#6624#6698#0#HTML" expanded="false" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#button#4;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1567,24 +1567,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#0;n#ul#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        <state relative-caret-position="272">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
           <folding>
-            <element signature="e#696#723#0#HTML" expanded="false" />
-            <element signature="e#733#905#0#HTML" expanded="false" />
-            <element signature="e#923#1057#0#HTML" expanded="false" />
-            <element signature="e#1696#6724#0#HTML" expanded="false" />
-            <element signature="e#1734#2224#0#HTML" expanded="false" />
-            <element signature="e#3052#3315#0#HTML" expanded="false" />
-            <element signature="e#3354#3616#0#HTML" expanded="false" />
-            <element signature="e#3651#3913#0#HTML" expanded="false" />
-            <element signature="e#3949#4211#0#HTML" expanded="false" />
-            <element signature="e#4245#4507#0#HTML" expanded="false" />
-            <element signature="e#4541#4803#0#HTML" expanded="false" />
-            <element signature="e#4838#6598#0#HTML" expanded="false" />
-            <element signature="e#6642#6716#0#HTML" expanded="false" />
+            <element signature="e#678#705#0#HTML" expanded="false" />
+            <element signature="e#715#887#0#HTML" expanded="false" />
+            <element signature="e#905#1039#0#HTML" expanded="false" />
+            <element signature="e#1678#6706#0#HTML" expanded="false" />
+            <element signature="e#1716#2206#0#HTML" expanded="false" />
+            <element signature="e#3034#3297#0#HTML" expanded="false" />
+            <element signature="e#3336#3598#0#HTML" expanded="false" />
+            <element signature="e#3633#3895#0#HTML" expanded="false" />
+            <element signature="e#3931#4193#0#HTML" expanded="false" />
+            <element signature="e#4227#4489#0#HTML" expanded="false" />
+            <element signature="e#4523#4785#0#HTML" expanded="false" />
+            <element signature="e#4820#6580#0#HTML" expanded="false" />
+            <element signature="e#6624#6698#0#HTML" expanded="false" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#button#4;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1624,20 +1638,6 @@
             <element signature="n#div#2;n#div#6;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#img#0;n#div#2;n#div#6;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#li#0;n#ul#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
