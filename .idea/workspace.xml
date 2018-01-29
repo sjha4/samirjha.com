@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="570a8333-1fa9-4378-94a7-e35eaa3400e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/home.html.erb" afterPath="$PROJECT_DIR$/app/views/application/home.html.erb" />
-    </list>
+    <list default="true" id="570a8333-1fa9-4378-94a7-e35eaa3400e1" name="Default" comment="" />
     <ignored path="untitled6.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -51,8 +49,8 @@
       <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="317" column="81" selection-start-line="317" selection-start-column="81" selection-end-line="317" selection-end-column="81" />
+            <state relative-caret-position="223">
+              <caret line="321" column="91" selection-start-line="321" selection-start-column="91" selection-end-line="321" selection-end-column="91" />
               <folding>
                 <element signature="e#181#330#0#HTML" expanded="false" />
                 <element signature="e#335#476#0#HTML" expanded="false" />
@@ -670,7 +668,7 @@
       <workItem from="1511897004204" duration="2664000" />
       <workItem from="1513120324590" duration="653000" />
       <workItem from="1513182056783" duration="6361000" />
-      <workItem from="1517169487210" duration="19964000" />
+      <workItem from="1517169487210" duration="20099000" />
     </task>
     <task id="LOCAL-00173" summary="Making secure">
       <created>1484000443801</created>
@@ -1019,7 +1017,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180344000" />
+    <option name="totallyTimeSpent" value="180479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-8" width="1317" height="772" extended-state="0" />
@@ -1613,8 +1611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="317" column="81" selection-start-line="317" selection-start-column="81" selection-end-line="317" selection-end-column="81" />
+        <state relative-caret-position="223">
+          <caret line="321" column="91" selection-start-line="321" selection-start-column="91" selection-end-line="321" selection-end-column="91" />
           <folding>
             <element signature="e#181#330#0#HTML" expanded="false" />
             <element signature="e#335#476#0#HTML" expanded="false" />
