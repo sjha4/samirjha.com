@@ -2,25 +2,19 @@
 <header>
   <style>
     @-moz-keyframes spin {
-      0%   {color: red; background-color: black;}
-      25%  {color: blue; background-color: white;}
-      50%  {color: yellow; background-color: black;}
-      75%  {color: green; background-color: white;}
-      100% {color: red; background-color: black;}
+      0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+      40%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
+      100% {transform: translate3d(0,100%,0) scale3d(1.5,.7,1);}
     }
     @-webkit-keyframes spin {
-      0%   {color: red; background-color: black;}
-      25%  {color: blue; background-color: white;}
-      50%  {color: yellow; background-color: black;}
-      75%  {color: green; background-color: white;}
-      100% {color: red; background-color: black;}
+      0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+      40%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
+      100% {transform: translate3d(0,100%,0) scale3d(1.5,.7,1);}
     }
     @keyframes spin {
-      0%   {color: red; background-color: black;}
-      25%  {color: blue; background-color: darkgray;}
-      50%  {color: yellow; background-color: black;}
-      75%  {color: green; background-color: darkgray;}
-      100% {color: red; background-color: black;}
+      0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+      40%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
+      100% {transform: translate3d(0,100%,0) scale3d(1.5,.7,1);}
     }
     html {
       height: 100%;
