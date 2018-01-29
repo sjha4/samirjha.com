@@ -16,6 +16,14 @@
       50%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
       100% {transform: translate3d(0,0,0) scale3d(1,1,1);}
     }
+    div{
+      -webkit-transition: width 2s, height 2s; /* For Safari 3.1 to 6.0 */
+      transition: width 2s, height 2s;
+    }
+    div:hover {
+      width: 300px;
+      height: 300px;
+    }
     html {
       height: 100%;
     }
