@@ -51,8 +51,8 @@
       <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="237" column="27" selection-start-line="237" selection-start-column="27" selection-end-line="237" selection-end-column="27" />
+            <state relative-caret-position="68">
+              <caret line="73" column="36" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#header#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#30#176#0#HTML" expanded="false" />
@@ -61,7 +61,6 @@
                 <element signature="e#486#513#0#HTML" expanded="false" />
                 <element signature="e#523#695#0#HTML" expanded="false" />
                 <element signature="e#713#847#0#HTML" expanded="false" />
-                <element signature="e#1653#6681#0#HTML" expanded="false" />
                 <element signature="e#1691#2181#0#HTML" expanded="false" />
                 <element signature="e#3009#3272#0#HTML" expanded="false" />
                 <element signature="e#3311#3573#0#HTML" expanded="false" />
@@ -151,9 +150,12 @@
       <file leaf-file-name="video.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/application/video.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="85">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#video#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -667,7 +669,7 @@
       <workItem from="1511897004204" duration="2664000" />
       <workItem from="1513120324590" duration="653000" />
       <workItem from="1513182056783" duration="6361000" />
-      <workItem from="1517169487210" duration="17997000" />
+      <workItem from="1517169487210" duration="18402000" />
     </task>
     <task id="LOCAL-00173" summary="Making secure">
       <created>1484000443801</created>
@@ -1016,13 +1018,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178377000" />
+    <option name="totallyTimeSpent" value="178782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-8" width="1317" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1734288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1734288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32789558" sideWeight="0.50278443" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.099375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1168,7 +1170,6 @@
             <element signature="e#486#513#0#HTML" expanded="false" />
             <element signature="e#523#695#0#HTML" expanded="false" />
             <element signature="e#713#847#0#HTML" expanded="false" />
-            <element signature="e#1653#6681#0#HTML" expanded="false" />
             <element signature="e#1691#2181#0#HTML" expanded="false" />
             <element signature="e#3009#3272#0#HTML" expanded="false" />
             <element signature="e#3311#3573#0#HTML" expanded="false" />
@@ -1304,7 +1305,6 @@
             <element signature="e#486#513#0#HTML" expanded="false" />
             <element signature="e#523#695#0#HTML" expanded="false" />
             <element signature="e#713#847#0#HTML" expanded="false" />
-            <element signature="e#1653#6681#0#HTML" expanded="false" />
             <element signature="e#1691#2181#0#HTML" expanded="false" />
             <element signature="e#3009#3272#0#HTML" expanded="false" />
             <element signature="e#3311#3573#0#HTML" expanded="false" />
@@ -1576,10 +1576,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#0;n#ul#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="237" column="27" selection-start-line="237" selection-start-column="27" selection-end-line="237" selection-end-column="27" />
+        <state relative-caret-position="68">
+          <caret line="73" column="36" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#header#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#30#176#0#HTML" expanded="false" />
@@ -1588,7 +1601,6 @@
             <element signature="e#486#513#0#HTML" expanded="false" />
             <element signature="e#523#695#0#HTML" expanded="false" />
             <element signature="e#713#847#0#HTML" expanded="false" />
-            <element signature="e#1653#6681#0#HTML" expanded="false" />
             <element signature="e#1691#2181#0#HTML" expanded="false" />
             <element signature="e#3009#3272#0#HTML" expanded="false" />
             <element signature="e#3311#3573#0#HTML" expanded="false" />
@@ -1644,24 +1656,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="20" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#li#4;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#li#0;n#ul#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/video.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#video#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

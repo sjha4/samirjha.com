@@ -20,6 +20,14 @@
     opacity:0
   }
 </style>
+<script>
+  $( document ).ready(function() {
+
+    ('#bgvid').addEventListener('ended', function () {
+      window.location = '/home';
+    });
+  })
+  </script>
 <video playsinline autoplay muted id="bgvid">
   <source src= <%= asset_path 'SamirJha.mp4' %>; type="video/mp4">
 </video>
