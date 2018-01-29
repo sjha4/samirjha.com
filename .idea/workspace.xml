@@ -148,8 +148,8 @@
       <file leaf-file-name="video.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/application/video.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            <state relative-caret-position="34">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#video#0;n#html#0;n#!!top" expanded="false" />
@@ -671,7 +671,7 @@
       <workItem from="1511897004204" duration="2664000" />
       <workItem from="1513120324590" duration="653000" />
       <workItem from="1513182056783" duration="6361000" />
-      <workItem from="1517169487210" duration="18703000" />
+      <workItem from="1517169487210" duration="18862000" />
     </task>
     <task id="LOCAL-00173" summary="Making secure">
       <created>1484000443801</created>
@@ -1020,13 +1020,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179083000" />
+    <option name="totallyTimeSpent" value="179242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-8" width="1317" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1734288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1734288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32789558" sideWeight="0.50278443" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.099375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1670,8 +1670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/video.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="34">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#video#0;n#html#0;n#!!top" expanded="false" />
