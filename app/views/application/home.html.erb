@@ -3,17 +3,17 @@
   <style>
     @-moz-keyframes spin {
       0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
-      40%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
+      50%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
       100% {transform: translate3d(0,0,0) scale3d(1,1,1);}
     }
     @-webkit-keyframes spin {
       0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
-      40%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
+      50%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
       100% {transform: translate3d(0,0,0) scale3d(1,1,1);}
     }
     @keyframes spin {
       0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
-      40%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
+      50%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
       100% {transform: translate3d(0,0,0) scale3d(1,1,1);}
     }
     html {
@@ -43,6 +43,13 @@
       font-family: Fredericka the Great, sans-serif;
       font-weight: bold;
       color: black;
+    }
+    .navbar-inverse{
+      margin-bottom: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      background-color: white;
     }
 
     button{

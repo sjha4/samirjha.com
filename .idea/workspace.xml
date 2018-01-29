@@ -51,22 +51,23 @@
       <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+            <state relative-caret-position="-317">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
+                <element signature="e#30#240#0#HTML" expanded="false" />
                 <element signature="e#678#705#0#HTML" expanded="false" />
                 <element signature="e#715#887#0#HTML" expanded="false" />
                 <element signature="e#905#1039#0#HTML" expanded="false" />
-                <element signature="e#1678#6706#0#HTML" expanded="false" />
-                <element signature="e#1716#2206#0#HTML" expanded="false" />
-                <element signature="e#3034#3297#0#HTML" expanded="false" />
-                <element signature="e#3336#3598#0#HTML" expanded="false" />
-                <element signature="e#3633#3895#0#HTML" expanded="false" />
-                <element signature="e#3931#4193#0#HTML" expanded="false" />
-                <element signature="e#4227#4489#0#HTML" expanded="false" />
-                <element signature="e#4523#4785#0#HTML" expanded="false" />
-                <element signature="e#4820#6580#0#HTML" expanded="false" />
-                <element signature="e#6624#6698#0#HTML" expanded="false" />
+                <element signature="e#1845#6873#0#HTML" expanded="false" />
+                <element signature="e#1883#2373#0#HTML" expanded="false" />
+                <element signature="e#3201#3464#0#HTML" expanded="false" />
+                <element signature="e#3503#3765#0#HTML" expanded="false" />
+                <element signature="e#3800#4062#0#HTML" expanded="false" />
+                <element signature="e#4098#4360#0#HTML" expanded="false" />
+                <element signature="e#4394#4656#0#HTML" expanded="false" />
+                <element signature="e#4690#4952#0#HTML" expanded="false" />
+                <element signature="e#4987#6747#0#HTML" expanded="false" />
+                <element signature="e#6791#6865#0#HTML" expanded="false" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#button#4;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -174,8 +175,8 @@
       <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="170">
+              <caret line="10" column="1" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -661,7 +662,7 @@
       <workItem from="1511897004204" duration="2664000" />
       <workItem from="1513120324590" duration="653000" />
       <workItem from="1513182056783" duration="6361000" />
-      <workItem from="1517169487210" duration="14693000" />
+      <workItem from="1517169487210" duration="14820000" />
     </task>
     <task id="LOCAL-00173" summary="Making secure">
       <created>1484000443801</created>
@@ -1010,13 +1011,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175073000" />
+    <option name="totallyTimeSpent" value="175200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-8" width="1317" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1734288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1734288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32789558" sideWeight="0.50278443" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.099375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1090,12 +1091,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/views/application/home.html.erb</url>
-          <line>84</line>
+          <line>91</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/views/application/home.html.erb</url>
-          <line>309</line>
+          <line>316</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
@@ -1156,19 +1157,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#30#240#0#HTML" expanded="false" />
             <element signature="e#678#705#0#HTML" expanded="false" />
             <element signature="e#715#887#0#HTML" expanded="false" />
             <element signature="e#905#1039#0#HTML" expanded="false" />
-            <element signature="e#1678#6706#0#HTML" expanded="false" />
-            <element signature="e#1716#2206#0#HTML" expanded="false" />
-            <element signature="e#3034#3297#0#HTML" expanded="false" />
-            <element signature="e#3336#3598#0#HTML" expanded="false" />
-            <element signature="e#3633#3895#0#HTML" expanded="false" />
-            <element signature="e#3931#4193#0#HTML" expanded="false" />
-            <element signature="e#4227#4489#0#HTML" expanded="false" />
-            <element signature="e#4523#4785#0#HTML" expanded="false" />
-            <element signature="e#4820#6580#0#HTML" expanded="false" />
-            <element signature="e#6624#6698#0#HTML" expanded="false" />
+            <element signature="e#1845#6873#0#HTML" expanded="false" />
+            <element signature="e#1883#2373#0#HTML" expanded="false" />
+            <element signature="e#3201#3464#0#HTML" expanded="false" />
+            <element signature="e#3503#3765#0#HTML" expanded="false" />
+            <element signature="e#3800#4062#0#HTML" expanded="false" />
+            <element signature="e#4098#4360#0#HTML" expanded="false" />
+            <element signature="e#4394#4656#0#HTML" expanded="false" />
+            <element signature="e#4690#4952#0#HTML" expanded="false" />
+            <element signature="e#4987#6747#0#HTML" expanded="false" />
+            <element signature="e#6791#6865#0#HTML" expanded="false" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#button#4;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1286,19 +1288,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#30#240#0#HTML" expanded="false" />
             <element signature="e#678#705#0#HTML" expanded="false" />
             <element signature="e#715#887#0#HTML" expanded="false" />
             <element signature="e#905#1039#0#HTML" expanded="false" />
-            <element signature="e#1678#6706#0#HTML" expanded="false" />
-            <element signature="e#1716#2206#0#HTML" expanded="false" />
-            <element signature="e#3034#3297#0#HTML" expanded="false" />
-            <element signature="e#3336#3598#0#HTML" expanded="false" />
-            <element signature="e#3633#3895#0#HTML" expanded="false" />
-            <element signature="e#3931#4193#0#HTML" expanded="false" />
-            <element signature="e#4227#4489#0#HTML" expanded="false" />
-            <element signature="e#4523#4785#0#HTML" expanded="false" />
-            <element signature="e#4820#6580#0#HTML" expanded="false" />
-            <element signature="e#6624#6698#0#HTML" expanded="false" />
+            <element signature="e#1845#6873#0#HTML" expanded="false" />
+            <element signature="e#1883#2373#0#HTML" expanded="false" />
+            <element signature="e#3201#3464#0#HTML" expanded="false" />
+            <element signature="e#3503#3765#0#HTML" expanded="false" />
+            <element signature="e#3800#4062#0#HTML" expanded="false" />
+            <element signature="e#4098#4360#0#HTML" expanded="false" />
+            <element signature="e#4394#4656#0#HTML" expanded="false" />
+            <element signature="e#4690#4952#0#HTML" expanded="false" />
+            <element signature="e#4987#6747#0#HTML" expanded="false" />
+            <element signature="e#6791#6865#0#HTML" expanded="false" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#button#4;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1569,8 +1572,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1583,22 +1586,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+        <state relative-caret-position="-317">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
+            <element signature="e#30#240#0#HTML" expanded="false" />
             <element signature="e#678#705#0#HTML" expanded="false" />
             <element signature="e#715#887#0#HTML" expanded="false" />
             <element signature="e#905#1039#0#HTML" expanded="false" />
-            <element signature="e#1678#6706#0#HTML" expanded="false" />
-            <element signature="e#1716#2206#0#HTML" expanded="false" />
-            <element signature="e#3034#3297#0#HTML" expanded="false" />
-            <element signature="e#3336#3598#0#HTML" expanded="false" />
-            <element signature="e#3633#3895#0#HTML" expanded="false" />
-            <element signature="e#3931#4193#0#HTML" expanded="false" />
-            <element signature="e#4227#4489#0#HTML" expanded="false" />
-            <element signature="e#4523#4785#0#HTML" expanded="false" />
-            <element signature="e#4820#6580#0#HTML" expanded="false" />
-            <element signature="e#6624#6698#0#HTML" expanded="false" />
+            <element signature="e#1845#6873#0#HTML" expanded="false" />
+            <element signature="e#1883#2373#0#HTML" expanded="false" />
+            <element signature="e#3201#3464#0#HTML" expanded="false" />
+            <element signature="e#3503#3765#0#HTML" expanded="false" />
+            <element signature="e#3800#4062#0#HTML" expanded="false" />
+            <element signature="e#4098#4360#0#HTML" expanded="false" />
+            <element signature="e#4394#4656#0#HTML" expanded="false" />
+            <element signature="e#4690#4952#0#HTML" expanded="false" />
+            <element signature="e#4987#6747#0#HTML" expanded="false" />
+            <element signature="e#6791#6865#0#HTML" expanded="false" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#button#4;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
