@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.navbar-inverse{
+margin-bottom: 0;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+background-image: linear-gradient(to bottom,#2e6da4 0,#d9edf7 100%)
+}
+</style>
   <head>
     <title><%= yield(:title) %>Samir</title>
     <%= favicon_link_tag %>
@@ -24,7 +33,7 @@
     </script>
   </head>
   <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: transparent;border-color: transparent">
+  <nav class="navbar navbar-inverse navbar-fixed-top" style="border-color: transparent">
     <ul class="nav navbar-nav navbar-right">
       <!--li>
         <button id="Hide" style="float: left;" class="btn btn-danger navbar-btn"><i>Hide Images!!</i></button>
