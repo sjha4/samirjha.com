@@ -32,8 +32,8 @@
   <source src= <%= asset_path 'SamirJha.mp4' %>; type="video/mp4">
 </video>
 <div id = "button"></div>
-<%= button_to( home_path, method: :get, :style=>'font-family: Fredericka the Great, sans-serif;float: left;bottom:0;right:0' , :class => 'btn btn-danger navbar-btn')  do%>
-  <span class="glyphicon glyphicon-globe" aria-hidden="true"><i> Go to Website</i></span>
+<%= button_to( home_path, method: :get, :style=>'animation: spin 5s infinite;font-family: Fredericka the Great, sans-serif;position:fixed;right:0;bottom:0%' , :class => 'btn btn-danger navbar-btn btn-block btn-lg')  do%>
+    <span class="glyphicon glyphicon-globe" aria-hidden="true"><i> Go to Website</i></span>
 <%end%>
 </div>
 

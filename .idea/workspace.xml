@@ -91,8 +91,8 @@
       <file leaf-file-name="video.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/application/video.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="34" column="123" lean-forward="false" selection-start-line="34" selection-start-column="123" selection-end-line="34" selection-end-column="123" />
+            <state relative-caret-position="497">
+              <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -569,7 +569,7 @@
       <workItem from="1513120324590" duration="653000" />
       <workItem from="1513182056783" duration="6361000" />
       <workItem from="1517169487210" duration="21350000" />
-      <workItem from="1525465883852" duration="4455000" />
+      <workItem from="1525465883852" duration="4564000" />
     </task>
     <task id="LOCAL-00173" summary="Making secure">
       <created>1484000443801</created>
@@ -918,7 +918,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186185000" />
+    <option name="totallyTimeSpent" value="186294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -1360,8 +1360,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/video.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="34" column="123" lean-forward="false" selection-start-line="34" selection-start-column="123" selection-end-line="34" selection-end-column="123" />
+        <state relative-caret-position="497">
+          <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
           <folding />
         </state>
       </provider>
