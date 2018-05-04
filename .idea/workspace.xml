@@ -51,8 +51,8 @@
       <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="274" column="158" lean-forward="true" selection-start-line="274" selection-start-column="126" selection-end-line="274" selection-end-column="158" />
+            <state relative-caret-position="234">
+              <caret line="263" column="126" lean-forward="false" selection-start-line="263" selection-start-column="126" selection-end-line="263" selection-end-column="126" />
               <folding />
             </state>
           </provider>
@@ -92,8 +92,10 @@
         <entry file="file://$PROJECT_DIR$/app/views/application/video.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="367">
-              <caret line="34" column="193" lean-forward="false" selection-start-line="34" selection-start-column="193" selection-end-line="34" selection-end-column="193" />
-              <folding />
+              <caret line="34" column="59" lean-forward="false" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#span#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -566,7 +568,7 @@
       <workItem from="1513120324590" duration="653000" />
       <workItem from="1513182056783" duration="6361000" />
       <workItem from="1517169487210" duration="21350000" />
-      <workItem from="1525465883852" duration="1097000" />
+      <workItem from="1525465883852" duration="1418000" />
     </task>
     <task id="LOCAL-00173" summary="Making secure">
       <created>1484000443801</created>
@@ -915,7 +917,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182827000" />
+    <option name="totallyTimeSpent" value="183148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -1340,8 +1342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="274" column="158" lean-forward="true" selection-start-line="274" selection-start-column="126" selection-end-line="274" selection-end-column="158" />
+        <state relative-caret-position="234">
+          <caret line="263" column="126" lean-forward="false" selection-start-line="263" selection-start-column="126" selection-end-line="263" selection-end-column="126" />
           <folding />
         </state>
       </provider>
@@ -1349,8 +1351,10 @@
     <entry file="file://$PROJECT_DIR$/app/views/application/video.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
-          <caret line="34" column="193" lean-forward="false" selection-start-line="34" selection-start-column="193" selection-end-line="34" selection-end-column="193" />
-          <folding />
+          <caret line="34" column="59" lean-forward="false" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#span#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
