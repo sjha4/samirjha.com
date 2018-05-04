@@ -32,8 +32,8 @@
   <source src= <%= asset_path 'SamirJha.mp4' %>; type="video/mp4">
 </video>
 <div id = "button"></div>
-<%= button_to( home_path, method: :get, :style=>'width:25%;animation: spin 5s infinite;font-family: Fredericka the Great, sans-serif;position:fixed;right:0;bottom:50%' , :class => 'btn btn-info navbar-btn btn-block btn-lg')  do%>
-    <span><img src=<%= asset_path 'forward.png' %>; style="height: 10%;width: 20%"/></span>
+<%= button_to( home_path, method: :get, :style=>'width:25%;animation: spin 5s infinite;font-family: Fredericka the Great, sans-serif;position:fixed;right:0;bottom:0%;opacity:1;' , :class => 'btn btn-info navbar-btn btn-block btn-lg')  do%>
+    <span><img src=<%= asset_path 'forward.png' %>; style="height: 10%;width: 20%;opacity:0"/></span>
 <%end%>
 </div>
 <div id = "button"></div>

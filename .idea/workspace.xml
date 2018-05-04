@@ -92,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/application/video.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="367">
-              <caret line="34" column="59" lean-forward="false" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+              <caret line="34" column="111" lean-forward="false" selection-start-line="34" selection-start-column="111" selection-end-line="34" selection-end-column="111" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#span#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -568,7 +568,7 @@
       <workItem from="1513120324590" duration="653000" />
       <workItem from="1513182056783" duration="6361000" />
       <workItem from="1517169487210" duration="21350000" />
-      <workItem from="1525465883852" duration="1418000" />
+      <workItem from="1525465883852" duration="1572000" />
     </task>
     <task id="LOCAL-00173" summary="Making secure">
       <created>1484000443801</created>
@@ -917,7 +917,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183148000" />
+    <option name="totallyTimeSpent" value="183302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -1351,7 +1351,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/application/video.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
-          <caret line="34" column="59" lean-forward="false" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+          <caret line="34" column="111" lean-forward="false" selection-start-line="34" selection-start-column="111" selection-end-line="34" selection-end-column="111" />
           <folding>
             <element signature="n#style#0;n#img#0;n#span#0;n#html#0;n#!!top" expanded="true" />
           </folding>
