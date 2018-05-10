@@ -5,6 +5,35 @@
 </style>
   <head>
     <title><%= yield(:title) %>Samir</title>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Raleigh",
+        "addressRegion": "NC",
+        "postalCode": "27606",
+        "streetAddress": "2704 H"
+      },
+      "email": "mailto:samirjha1525@gmail.com",
+      "image": "samir.jpg",
+      "jobTitle": "Software Developer",
+      "name": "Samir Jha",
+      "alumniOf": "NC State University",
+      "birthPlace": "Bokaro, IN",
+      "birthDate": "1990.08.15",
+      "height": "5'11",
+      "gender": "Male",
+      "nationality": "Indian",
+      "url": "http://www.samirjha.com",
+	    "sameAs" : [ "https://www.facebook.com/",
+      "https://www.linkedin.com/",
+      "http://twitter.com/",
+      "http://instagram.com/",
+      "https://plus.google.com/"]
+    }
+    </script>
     <%= favicon_link_tag %>
     <%= csrf_meta_tags %>
     <link rel="shortcut icon" href="/favicon.ico" />
