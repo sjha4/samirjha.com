@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   get 'message/new' => 'comments#new'
   post 'application/new_comment' => 'application#new_comment'
   resources :comments
+  resources :projects
   resources :application
 end
