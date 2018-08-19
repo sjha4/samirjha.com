@@ -60,42 +60,41 @@
       ga('send', 'pageview');
 
     </script>
-
+    <nav class="navbar navbar-fixed-top" style="border-color: transparent; width: 100%">
+      <div class="container-fluid">
+        <div class = "collapse navbar-collapse" style="width: 100%">
+          <ul class="nav navbar-nav" style="width: 100%">
+            <li>
+              <button id="Crazy" style="float: left;" class="btn btn-info navbar-btn"><i>Show all Content</i></button>
+            </li>
+            <li>
+              <button id="AboutMe" style="float: left;" class="btn btn-info navbar-btn">
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span> <i id="AboutButtonText"> My Contact</i>
+              </button>
+            </li>
+            <li> </li>
+            <li>
+              <button id="ResumeButton" style="float: left;" class="btn btn-info navbar-btn" onclick="window.open('https://drive.google.com/file/d/1nQQp7oUBPTK2s22kHhBAzaKlil39MZ0n/view?usp=sharing')">
+                <span class="glyphicon glyphicon-file" aria-hidden="true"></span> <i> My Resume</i>
+              </button>
+            </li>
+            <li>
+              <button id ="proj" type="button" style="float: left;animation: spin 1s infinite;" class="btn btn-primary navbar-btn" aria-label="Left Align">
+                <span id ="folder" class="glyphicon glyphicon-folder-close" aria-hidden="true"></span> <i id="ProjText"> See Projects</i>
+              </button>
+            </li>
+            <li>
+              <button id="SocialApp" style="animation: spin 1s infinite;float: left;" class="btn btn-primary navbar-btn" onclick="window.open('https://socialnewsverifier.herokuapp.com/')">
+                <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> <i>News Verifier</i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </head>
 
   <body style="background-image: url('/farm.jpg');background-size: cover">
-  <nav class="navbar navbar-fixed-top" style="border-color: transparent; width: 100%">
-    <div class="container-fluid">
-      <div class = "collapse navbar-collapse" style="width: 100%">
-        <ul class="nav navbar-nav" style="width: 100%">
-          <li>
-            <button id="Crazy" style="float: left;" class="btn btn-info navbar-btn"><i>Show all Content</i></button>
-          </li>
-          <li>
-            <button id="AboutMe" style="float: left;" class="btn btn-info navbar-btn">
-              <span class="glyphicon glyphicon-user" aria-hidden="true"></span> <i id="AboutButtonText"> My Contact</i>
-            </button>
-          </li>
-          <li> </li>
-          <li>
-            <button id="ResumeButton" style="float: left;" class="btn btn-info navbar-btn" onclick="window.open('https://drive.google.com/file/d/1nQQp7oUBPTK2s22kHhBAzaKlil39MZ0n/view?usp=sharing')">
-              <span class="glyphicon glyphicon-file" aria-hidden="true"></span> <i> My Resume</i>
-            </button>
-          </li>
-          <li>
-            <button id ="proj" type="button" style="float: left;animation: spin 1s infinite;" class="btn btn-primary navbar-btn" aria-label="Left Align">
-              <span id ="folder" class="glyphicon glyphicon-folder-close" aria-hidden="true"></span> <i id="ProjText"> See Projects</i>
-            </button>
-          </li>
-          <li>
-            <button id="SocialApp" style="animation: spin 1s infinite;float: left;" class="btn btn-primary navbar-btn" onclick="window.open('https://socialnewsverifier.herokuapp.com/')">
-              <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> <i>News Verifier</i>
-            </button>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
   <%= yield %>
   </body>
 </html>
