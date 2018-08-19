@@ -71,7 +71,13 @@
   </style>
   <script>
     $( document ).ready(function() {
-      $("#AboutMe").click(function(){
+        $("#Home").click(function(){
+            $("#row1").css("display", "block")
+            $("#row2").css("display", "none")
+            $("#rowAbout").css("display", "none")
+        })
+
+        $("#AboutMe").click(function(){
         if($("#AboutButtonText").text()==" About Me")
         {
           $("#row1").css("display", "none")
