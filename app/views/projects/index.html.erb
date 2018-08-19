@@ -7,18 +7,20 @@
     <th>Name</th>
     <th>Description</th>
     <th>Image</th>
+    <th> </th>
   </tr>
   </thead>
 
   <tbody>
-  <% @projects.each do |comment| %>
+  <% @projects.each do |project| %>
     <tr>
-      <td><%= comment.Name %></td>
-      <td><%= comment.Comment %></td>
-      <td><%= comment.ContactInfo %></td>
-      <td><%= link_to 'Show', comment %></td>
-      <td><%= link_to 'Edit', edit_comment_path(comment) %></td>
-      <td><%= link_to 'Destroy', comment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      <td><%= project.name %></td>
+      <td><%= project.description %></td>
+      <td><%= project.image %></td>
+      <td><a href ="<%= project.link %>">View on Github</a></td>
+      <td><%= link_to 'Show', project %></td>
+      <td><%= link_to 'Edit', edit_project_path(project) %></td>
+      <td><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
     </tr>
   <% end %>
   </tbody>
