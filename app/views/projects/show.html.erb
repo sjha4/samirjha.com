@@ -1,19 +1,26 @@
+<style>
+  p{
+    font-family: Fredericka the Great, sans-serif;
+    font-size: 110%;
+    color: white;
+  }
+</style>
 <p id="notice"><%= notice %></p>
 <div style="padding: 10%">
 <p>
   <img src = "<%= @project.image %>">
 </p>
-  <p>
+  <p align="justify">
   <strong>Name:</strong>
   <%= @project.name %>
 </p>
 
-<p>
+<p align="justify">
   <strong>Description:</strong>
   <%= @project.description %>
 </p>
 
-<p>
+<p align="justify">
   <strong>Github Url:</strong>
   <a href = "<%= @project.link %>"> View on Github </a>
 </p>
