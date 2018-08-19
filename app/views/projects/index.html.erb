@@ -1,0 +1,105 @@
+<html>
+<head>
+  <style>
+    @-moz-keyframes spin {
+      0%   {transform: rotateX(0deg);}
+      50%  {transform: rotateX(50deg);}
+      100% {transform: rotateX(0deg);}
+    }
+    @-webkit-keyframes spin {
+      0%   {transform: rotateX(0deg);}
+      50%  {transform: rotateX(50deg);}
+      100% {transform: rotateX(0deg);}
+    }
+    @keyframes spin {
+      0%   {transform: rotateX(0deg);}
+      50%  {transform: rotateX(50deg);}
+      100% {transform: rotateX(0deg);}
+    }
+    html {
+      height: 100%;
+    }
+    body {
+      min-height: 100%;
+      background-size: 100%;
+    }
+    .text-primary{
+      font-family: Fredericka the Great, sans-serif;
+      font-weight: bold;
+      color: white;
+      border-color: #0000aa;
+    }
+
+    .btn-danger {
+
+      padding:-1px;
+    }
+
+    .navbar-btn{
+      margin: 1%;
+    }
+    .form-group{
+      font-family: Fredericka the Great, sans-serif;
+      font-weight: bold;
+      color: white;
+    }
+    .navbar-inverse{
+      margin-bottom: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      background-color: white;
+    }
+
+    button{
+      font-family: Fredericka the Great, sans-serif;
+      font-weight: bold;
+      font-size: 120%;
+      margin: 1%;
+    }
+    p{
+      font-family: Fredericka the Great, sans-serif;
+      font-size: 110%;
+      color: white;
+    }
+    #footer {
+      position:absolute;
+      bottom:0;
+      width:100%;
+      height:5%;   /* Height of the footer */
+    }
+  </style>
+</head>
+<body>
+
+<p id="notice"><%= notice %></p>
+
+<table>
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Comment</th>
+    <th>Contactinfo</th>
+    <th colspan="3"></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @projects.each do |comment| %>
+    <tr>
+      <td><%= comment.Name %></td>
+      <td><%= comment.Comment %></td>
+      <td><%= comment.ContactInfo %></td>
+      <td><%= link_to 'Show', comment %></td>
+      <td><%= link_to 'Edit', edit_comment_path(comment) %></td>
+      <td><%= link_to 'Destroy', comment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<br>
+</body>
+</html>
+
+
