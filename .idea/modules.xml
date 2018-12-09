@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/mnt/foreman/.idea/foreman.iml" filepath="$USER_HOME$/mnt/foreman/.idea/foreman.iml" />
+      <module fileurl="file://$USER_HOME$/mnt/katello/.idea/katello.iml" filepath="$USER_HOME$/mnt/katello/.idea/katello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/mySite.iml" filepath="$PROJECT_DIR$/../.idea/mySite.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/untitled6.iml" filepath="$PROJECT_DIR$/.idea/untitled6.iml" />
     </modules>
   </component>
