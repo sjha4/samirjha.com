@@ -1,279 +1,56 @@
 <html>
 <header>
-  <style>
-    @-moz-keyframes spin {
-      0%   {transform: rotateX(0deg);}
-      50%  {transform: rotateX(50deg);}
-      100% {transform: rotateX(0deg);}
-    }
-    @-webkit-keyframes spin {
-      0%   {transform: rotateX(0deg);}
-      50%  {transform: rotateX(50deg);}
-      100% {transform: rotateX(0deg);}
-    }
-    @keyframes spin {
-      0%   {transform: rotateX(0deg);}
-      50%  {transform: rotateX(50deg);}
-      100% {transform: rotateX(0deg);}
-    }
-    html {
-      height: 100%;
-    }
-    body {
-      min-height: 100%;
-      background-size: 100%;
-    }
-    .text-primary{
-      font-family: Fredericka the Great, sans-serif;
-      font-weight: bold;
-      color: white;
-      border-color: #0000aa;
-    }
-
-    .btn-danger {
-
-      padding:-1px;
-    }
-
-    .navbar-btn{
-      margin: 1%;
-    }
-    .form-group{
-      font-family: Fredericka the Great, sans-serif;
-      font-weight: bold;
-      color: white;
-    }
-    .navbar-inverse{
-      margin-bottom: 0;
-      -webkit-border-radius: 0;
-      -moz-border-radius: 0;
-      border-radius: 0;
-      background-color: white;
-    }
-    .glyphicon-comment{
-      color:dodgerblue;
-    }
-    button{
-      font-family: Fredericka the Great, sans-serif;
-      font-weight: bold;
-      font-size: 120%;
-      margin: 1%;
-    }
-    p{
-      font-family: Fredericka the Great, sans-serif;
-      font-size: 110%;
-      color: white;
-    }
-    #footer {
-      position:absolute;
-      bottom:0;
-      width:100%;
-      height:5%;   /* Height of the footer */
-    }
-  </style>
-  <script>
-    $( document ).ready(function() {
-        $("#Home").click(function(){
-            $("#row1").css("display", "block")
-            $("#row2").css("display", "none")
-            $("#rowAbout").css("display", "none")
-        })
-
-        $("#AboutMe").click(function(){
-        if($("#AboutButtonText").text()==" About Me")
-        {
-          $("#row1").css("display", "none")
-          $("#row2").css("display", "none")
-          $("#rowAbout").css("display", "block")
-          $("#AboutButtonText").text("About Me")
-        }
-        else{
-          $("#row1").css("display", "block")
-          $("#row2").css("display", "none")
-          $("#rowAbout").css("display", "none")
-          $("#AboutButtonText").text(" About Me")
-
-        }
-      })
-
-      $("#proj").click(function(){
-        var proj = $("#folder")
-        if($("#ProjText").text()==" See Projects")
-        {
-          proj.removeClass("glyphicon glyphicon-folder-close")
-          proj.addClass("glyphicon glyphicon-folder-open")
-          $("#ProjText").text(" Hide Projects")
-          $("#row1").css("display","none")
-          $("#row2").css("display","block")
-          $("#rowAbout").css("display","none")
-        }
-        else
-        {
-          proj.removeClass("glyphicon glyphicon-folder-open")
-          proj.addClass("glyphicon glyphicon-folder-close")
-          $("#ProjText").text(" See Projects")
-          $("#row1").css("display","block")
-          $("#row2").css("display","none")
-          $("#rowAbout").css("display","none")
-        }
-
-
-      })
-      $("#System").click( function(){
-        $("#Systems").css("display","block")
-        $("#Networks").css("display","none")
-        $("#Webs").css("display","none")
-        $("#Rests").css("display","none")
-        $("#MLs").css("display","none")
-        $("#AIs").css("display","none")
-
-      })
-      $("#Network").click( function(){
-        $("#Systems").css("display","none")
-        $("#Networks").css("display","block")
-        $("#Webs").css("display","none")
-        $("#Rests").css("display","none")
-        $("#MLs").css("display","none")
-        $("#AIs").css("display","none")
-      })
-      $("#Web").click( function(){
-        $("#Systems").css("display","none")
-        $("#Networks").css("display","none")
-        $("#Webs").css("display","block")
-        $("#Rests").css("display","none")
-        $("#MLs").css("display","none")
-        $("#AIs").css("display","none")
-      })
-      $("#Rest").click( function(){
-        $("#Systems").css("display","none")
-        $("#Networks").css("display","none")
-        $("#Webs").css("display","none")
-        $("#Rests").css("display","block")
-        $("#MLs").css("display","none")
-        $("#AIs").css("display","none")
-      })
-      $("#ML").click( function(){
-        $("#Systems").css("display","none")
-        $("#Networks").css("display","none")
-        $("#Webs").css("display","none")
-        $("#Rests").css("display","none")
-        $("#MLs").css("display","block")
-        $("#AIs").css("display","none")
-      })
-      $("#AI").click( function(){
-        $("#Systems").css("display","none")
-        $("#Networks").css("display","none")
-        $("#Webs").css("display","none")
-        $("#Rests").css("display","none")
-        $("#MLs").css("display","none")
-        $("#AIs").css("display","block")
-      })
-      $("#Hide").click(function(){
-        var div = $("img")
-        var divForm = $("#FormFill")
-        var imgDiv = $("#Images")
-        div.slideToggle();
-        if($(this).text()=="Hide Images!!") {
-          $(this).text('Show Images!!')
-          divForm.addClass("col-md-10")
-          divForm.removeClass("col-md-8")
-          imgDiv.addClass("col-md-0")
-          imgDiv.removeClass("col-md-3")
-          if (!("Notification" in window)) {
-            alert("This browser does not support desktop notification");
-          }
-          // Let's check whether notification permissions have already been granted
-          else if (Notification.permission === "granted") {
-            // If it's okay let's create a notification
-            var n = new Notification("You could click on the images and redirect..", {iconUrl:'https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/0b8/2a1/1e2d049.jpg'});
-            setTimeout(n.close.bind(n), 3000);
-          }
-          // Otherwise, we need to ask the user for permission
-          else if (Notification.permission !== 'denied') {
-            Notification.requestPermission(function (permission) {
-              // If the user accepts, let's create a notification
-              if (permission === "granted") {
-                var n = new Notification("You could click on the images and redirect..", {iconUrl:'https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/0b8/2a1/1e2d049.jpg'});
-                setTimeout(n.close.bind(n), 3000);
-              }
-            });
-          }
-
-        }
-        else{
-          $(this).text("Hide Images!!")
-          imgDiv.removeClass("col-md-0")
-          imgDiv.addClass("col-md-3")
-          divForm.removeClass("col-md-10")
-          divForm.addClass("col-md-8")
-
-        }
-
-      })
-
-      $("#Crazy").click(function()
-      {
-        var div = $("div");
-        div.css("display","block")
-
-
-      })
-
-    });
-  </script>
+  <style>@-moz-keyframes spin{0%{transform:rotateX(0deg)}50%{transform:rotateX(50deg)}100%{transform:rotateX(0deg)}}@-webkit-keyframes spin{0%{transform:rotateX(0deg)}50%{transform:rotateX(50deg)}100%{transform:rotateX(0deg)}}@keyframes spin{0%{transform:rotateX(0deg)}50%{transform:rotateX(50deg)}100%{transform:rotateX(0deg)}}html{height:100%}body{min-height:100%;background-size:100%}.text-primary{font-family:Fredericka the Great,sans-serif;font-weight:bold;color:white;border-color:#00a}.btn-danger{padding:-1px}.navbar-btn{margin:1%}.form-group{font-family:Fredericka the Great,sans-serif;font-weight:bold;color:white}.navbar-inverse{margin-bottom:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:white}.glyphicon-comment{color:dodgerblue}button{font-family:Fredericka the Great,sans-serif;font-weight:bold;font-size:120%;margin:1%}p{font-family:Fredericka the Great,sans-serif;font-size:110%;color:white}#footer{position:absolute;bottom:0;width:100%;height:5%}</style>
+  <script>$(document).ready(function(){$("#Home").click(function(){$("#row1").css("display","block");$("#row2").css("display","none");$("#rowAbout").css("display","none")});$("#AboutMe").click(function(){if($("#AboutButtonText").text()==" About Me"){$("#row1").css("display","none");$("#row2").css("display","none");$("#rowAbout").css("display","block");$("#AboutButtonText").text("About Me")}else{$("#row1").css("display","block");$("#row2").css("display","none");$("#rowAbout").css("display","none");$("#AboutButtonText").text(" About Me")}});$("#proj").click(function(){var a=$("#folder");if($("#ProjText").text()==" See Projects"){a.removeClass("glyphicon glyphicon-folder-close");a.addClass("glyphicon glyphicon-folder-open");$("#ProjText").text(" Hide Projects");$("#row1").css("display","none");$("#row2").css("display","block");$("#rowAbout").css("display","none")}else{a.removeClass("glyphicon glyphicon-folder-open");a.addClass("glyphicon glyphicon-folder-close");$("#ProjText").text(" See Projects");$("#row1").css("display","block");$("#row2").css("display","none");$("#rowAbout").css("display","none")}});$("#System").click(function(){$("#Systems").css("display","block");$("#Networks").css("display","none");$("#Webs").css("display","none");$("#Rests").css("display","none");$("#MLs").css("display","none");$("#AIs").css("display","none")});$("#Network").click(function(){$("#Systems").css("display","none");$("#Networks").css("display","block");$("#Webs").css("display","none");$("#Rests").css("display","none");$("#MLs").css("display","none");$("#AIs").css("display","none")});$("#Web").click(function(){$("#Systems").css("display","none");$("#Networks").css("display","none");$("#Webs").css("display","block");$("#Rests").css("display","none");$("#MLs").css("display","none");$("#AIs").css("display","none")});$("#Rest").click(function(){$("#Systems").css("display","none");$("#Networks").css("display","none");$("#Webs").css("display","none");$("#Rests").css("display","block");$("#MLs").css("display","none");$("#AIs").css("display","none")});$("#ML").click(function(){$("#Systems").css("display","none");$("#Networks").css("display","none");$("#Webs").css("display","none");$("#Rests").css("display","none");$("#MLs").css("display","block");$("#AIs").css("display","none")});$("#AI").click(function(){$("#Systems").css("display","none");$("#Networks").css("display","none");$("#Webs").css("display","none");$("#Rests").css("display","none");$("#MLs").css("display","none");$("#AIs").css("display","block")});$("#Hide").click(function(){var d=$("img");var c=$("#FormFill");var a=$("#Images");d.slideToggle();if($(this).text()=="Hide Images!!"){$(this).text("Show Images!!");c.addClass("col-md-10");c.removeClass("col-md-8");a.addClass("col-md-0");a.removeClass("col-md-3");if(!("Notification" in window)){alert("This browser does not support desktop notification")}else{if(Notification.permission==="granted"){var b=new Notification("You could click on the images and redirect..",{iconUrl:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/0b8/2a1/1e2d049.jpg"});setTimeout(b.close.bind(b),3000)}else{if(Notification.permission!=="denied"){Notification.requestPermission(function(e){if(e==="granted"){var f=new Notification("You could click on the images and redirect..",{iconUrl:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/0b8/2a1/1e2d049.jpg"});setTimeout(f.close.bind(f),3000)}})}}}}else{$(this).text("Hide Images!!");a.removeClass("col-md-0");a.addClass("col-md-3");c.removeClass("col-md-10");c.addClass("col-md-8")}});$("#Crazy").click(function(){var a=$("div");a.css("display","block")})});</script>
 </header>
-<body style="margin: 0%;font-weight:bold; font-family :Tangerine sans-serif;background-size:100%;">
-
-<div class = "container" style="display:block;margin-top: 5%">
-  <div id= "row1" class="row">
-    <div id="Images" class = "col-md-3" style="padding:0;margin-top:5%;float: left">
+<body style="margin:0;font-weight:bold;font-family:Tangerine sans-serif;background-size:100%">
+<div class="container" style="display:block;margin-top:5%">
+  <div id="row1" class="row">
+    <div id="Images" class="col-md-3" style="padding:0;margin-top:5%;float:left">
       <h3 class="text-primary">LinkedIn!!!!!!<span class="glyphicon glyphicon-hand-down" aria-hidden="true"></span></h3>
       <picture>
-      <img id = "abc" style="height: 50%; width: 50%;border-radius: 50%;" onclick="window.open('https://www.linkedin.com/in/deeplearningsamirjha')" src=<%= asset_path 'samir.jpg' %>/>
+        <img id="abc" style="height:50%;width:50%;border-radius:50%" onclick="window.open('https://www.linkedin.com/in/deeplearningsamirjha')" src=<%=asset_path 'samir.jpg' %>/>
       </picture>
       <br>
       <h3 class="text-primary">Github<span class="glyphicon glyphicon-hand-down" aria-hidden="true"></span></h3>
       <picture>
-      <img style="height: 50%; width: 50%;border-radius: 50%;" onclick="window.open('https://github.com/sjha4')" src="https://avatars1.githubusercontent.com/u/21146741?v=3&u=89575d401d31a39a2b6112f32f3b778a0019e8f2&s=400"/>
+        <img style="height:50%;width:50%;border-radius:50%" onclick="window.open('https://github.com/sjha4')" src="https://avatars1.githubusercontent.com/u/21146741?v=3&u=89575d401d31a39a2b6112f32f3b778a0019e8f2&s=400"/>
       </picture>
       <br/>
       <h2 class="text-primary">IRC : #sajha </h2>
     </div>
-    <div id = "FormFill" class = "col-md-8" style="padding:0;margin-top:5%;float: right">
-      <%= render 'application/comment_form' %>
-
+    <div id="FormFill" class="col-md-8" style="padding:0;margin-top:5%;float:right">
+      <%=render 'application/comment_form' %>
     </div>
   </div>
-
-  <div id= "row2" style="display:none;margin-top: 5%;height:100%">
-    <h2 class="text-primary" style="align-items: center">Projects</h2>
+  <div id="row2" style="display:none;margin-top:5%;height:100%">
+    <h2 class="text-primary" style="align-items:center">Projects</h2>
     <p> (Click Project Image for github/documentation)</p>
-    <div id="buttonDiv" style="align-items: center">
-      <button id="Web" style = "animation: spin 1s infinite; background-color: darkorange" type="button" class="btn btn-success">
+    <div id="buttonDiv" style="align-items:center">
+      <button id="Web" style="animation:spin 1s infinite;background-color:darkorange" type="button" class="btn btn-success">
         <b>Web/Mobile Apps and APIs</b>
       </button>
-      <button id="Rest" style = "animation: spin 1s infinite; background-color: darkorange" type="button" class="btn btn-success">
+      <button id="Rest" style="animation:spin 1s infinite;background-color:darkorange" type="button" class="btn btn-success">
         <b>Some more Web..</b>
       </button>
-      <button id="ML"  style = "animation: spin 1s infinite; background-color: darkorange" type="button" class="btn btn-success">
+      <button id="ML" style="animation:spin 1s infinite;background-color:darkorange" type="button" class="btn btn-success">
         <b>Machine Learning/ AI</b>
       </button>
-      <button id="AI" type="button" style = "animation: spin 1s infinite; background-color: darkorange" class="btn btn-success">
+      <button id="AI" type="button" style="animation:spin 1s infinite;background-color:darkorange" class="btn btn-success">
         <b>Some more ML..</b>
       </button>
-      <button id="System" type="button" style = "animation: spin 1s infinite; background-color: darkorange" class="btn btn-success">
+      <button id="System" type="button" style="animation:spin 1s infinite;background-color:darkorange" class="btn btn-success">
         <b>Systems</b>
       </button>
-      <button id="Network" type="button" style = "animation: spin 1s infinite; background-color: darkorange" class="btn btn-success">
+      <button id="Network" type="button" style="animation:spin 1s infinite;background-color:darkorange" class="btn btn-success">
         <b>Networks/DBMS</b>
       </button>
-
       <p><br/></p>
     </div>
-    <div id= "Webs" class="row" style="display:block;">
-      <div id="Social" class = "col-md-3">
+    <div id="Webs" class="row" style="display:block">
+      <div id="Social" class="col-md-3">
         <h2 class="text-primary">Social Media Platform</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/FakeNews-Verification')" src=<%= asset_path 'social.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <img onclick="window.open('https://github.com/sjha4/FakeNews-Verification')" src=<%=asset_path 'social.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
         <br/>
         <p align="justify"><br/>
           <b>A Social Media App for crowdsourced news verification</b>:
@@ -282,9 +59,9 @@
           <a href="https://socialnewsverifier.herokuapp.com/ " target="_blank">Enough said!! Please become a member!!</a>
         </p>
       </div>
-      <div id="AWS" class = "col-md-3">
+      <div id="AWS" class="col-md-3">
         <h2 class="text-primary">AWS + DynamoDB API endpoints</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/Identification-and-Analysis-of-popular-trends-around-the-world')" src=<%= asset_path 'aws.JPG' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <img onclick="window.open('https://github.com/sjha4/Identification-and-Analysis-of-popular-trends-around-the-world')" src=<%=asset_path 'aws.JPG' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
         <br/>
         <p align="justify"><br/>
           <b>PaaS Endpoint</b><br/>
@@ -294,18 +71,18 @@
           <a href="https://dic8realtime-dashboard.herokuapp.com" target="_blank">Dashboard</a>
         </p>
       </div>
-      <div id="Expertiza" class = "col-md-3">
+      <div id="Expertiza" class="col-md-3">
         <h2 class="text-primary">Expertiza - Open Source</h2><p><br/></p>
-        <img onclick="window.open('https://expertiza.ncsu.edu/')" src="https://kassieskorner.files.wordpress.com/2015/03/tuffy.jpg?w=640" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <img onclick="window.open('https://expertiza.ncsu.edu/')" src="https://kassieskorner.files.wordpress.com/2015/03/tuffy.jpg?w=640" style="height:100%;width:100%;border-radius:50%"/>
         <br/>
-        <p align="justify"><br/>	Implemented logging console for the expertiza web app developed on
+        <p align="justify"><br/> Implemented logging console for the expertiza web app developed on
           Ruby on rails. <a href="https://www.youtube.com/watch?v=v-Q5fRYLju0">Link</a> to Youtube video explaining the project.
           Wait till you hear my name!!
         </p>
       </div>
-      <div id="MultiAgent" class = "col-md-3">
+      <div id="MultiAgent" class="col-md-3">
         <h2 class="text-primary">Multiagent Restful API</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/MultiAgentActorReferralWithDrools')" src=<%= asset_path 'playakka.png' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <img onclick="window.open('https://github.com/sjha4/MultiAgentActorReferralWithDrools')" src=<%=asset_path 'playakka.png' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
         <br/>
         <p align="justify"><br/>
           The webservice is implemented using the Play Framework. The integrated Akka Actor Model provides a higher level of abstraction for writing concurrent and distributed systems.
@@ -314,10 +91,10 @@
         </p>
       </div>
     </div>
-    <div id= "Rests" class="row" style="display:none;">
-      <div id="Sipa" class = "col-md-3">
+    <div id="Rests" class="row" style="display:none">
+      <div id="Sipa" class="col-md-3">
         <h2 class="text-primary">Intelligent Sharing Suggestor</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/Sharing-setting-Recommender')" src=<%= asset_path 'sipa.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <img onclick="window.open('https://github.com/sjha4/Sharing-setting-Recommender')" src=<%=asset_path 'sipa.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
         <br/>
         <p align="justify"><br/>
           A RESTful, Context Aware Sharing Recommender which can argument and reason about sharing settings
@@ -325,52 +102,52 @@
           The REST service is implemented on Play Framework and uses persistent SQLite RDBMS for storage.
         </p>
       </div>
-      <div id="SpeedTracker" class = "col-md-3">
+      <div id="SpeedTracker" class="col-md-3">
         <h2 class="text-primary">Speed Tracking Android App</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/SpeedTracker--Android')" src=<%= asset_path 'mysite.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <img onclick="window.open('https://github.com/sjha4/SpeedTracker--Android')" src=<%=asset_path 'mysite.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
         <br/>
         <p align="justify"><br/>
           An android app that uses Geolocation services to monitor the speed at which the user is travelling.<br/>
           Download the application here - <a href="https://goo.gl/iegaZg">Download Link</a>
         </p>
       </div>
-      <div id="Music" class = "col-md-3">
+      <div id="Music" class="col-md-3">
         <h2 class="text-primary">Music Top Charts (Top 50)</h2><p><br/></p>
-        <img onclick="window.open('https://samirjha.herokuapp.com/music?')" src="http://zdnet3.cbsistatic.com/hub/i/r/2016/09/01/7091ca46-3139-4874-9840-33278c3174f6/thumbnail/770x578/0a42b2388eddc82d3ffe1a72a16aa0e1/last-fm-hero.jpg" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <img onclick="window.open('https://samirjha.herokuapp.com/music?')" src="http://zdnet3.cbsistatic.com/hub/i/r/2016/09/01/7091ca46-3139-4874-9840-33278c3174f6/thumbnail/770x578/0a42b2388eddc82d3ffe1a72a16aa0e1/last-fm-hero.jpg" style="height:100%;width:100%;border-radius:50%"/>
         <br/>
         <p align="justify"><br/>
           Top 50 chartbusters from your country!! Data synced from <a href="https://www.last.fm"> last.fm </a>!
         </p>
       </div>
-      <div id="XMLParser" class = "col-md-3">
+      <div id="XMLParser" class="col-md-3">
         <h2 class="text-primary">XML Parser for Salesforce</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/XMLParser')" src="https://theneocomdotcom.files.wordpress.com/2015/02/using-xml-pop_3712.jpg?w=640" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <img onclick="window.open('https://github.com/sjha4/XMLParser')" src="https://theneocomdotcom.files.wordpress.com/2015/02/using-xml-pop_3712.jpg?w=640" style="height:100%;width:100%;border-radius:50%"/>
         <br/>
         <p align="justify"><br/>
           A simple XML parser for use on Salesforce.
         </p>
       </div>
     </div>
-    <div id= "MLs" class="row" style="display:none;">
-      <div id="Fish" class = "col-md-4">
+    <div id="MLs" class="row" style="display:none">
+      <div id="Fish" class="col-md-4">
         <h2 class="text-primary"><b>ML</b> - Nature Conservancy Fisheries Monitoring</h2><p><br/></p>
-        <img onclick="window.open('https://kaggle2.blob.core.windows.net/competitions/kaggle/5568/media/TNC.mp4')" src="http://www.un.org/News/dh/photos/large/2012/May/05-17-2012seafood.jpg" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <img onclick="window.open('https://kaggle2.blob.core.windows.net/competitions/kaggle/5568/media/TNC.mp4')" src="http://www.un.org/News/dh/photos/large/2012/May/05-17-2012seafood.jpg" style="height:100%;width:100%;border-radius:50%"/>
         <br/>
         <p align="justify"><br/>
           Detect and classify species of fish! Sponsored by Kaggle. Find project description here -> <a href="https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring"> Kaggle </a> and the implementation report here -> <a href="https://drive.google.com/file/d/1ZdkbTYHfcsteiXATbqkVwJpuChp4yqP7/view?usp=sharing" target="_blank"> Report </a>!
         </p>
       </div>
-      <div id="News" class = "col-md-4">
+      <div id="News" class="col-md-4">
         <h2 class="text-primary">News Classifier </h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/MultiAgentActorReferralWithDrools')" src=<%= asset_path 'fake.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <img onclick="window.open('https://github.com/sjha4/MultiAgentActorReferralWithDrools')" src=<%=asset_path 'fake.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
         <br/>
         <p align="justify"><br/>
           We are using the very popular Weka Machine Learning library for our purpose. We have looked at various text analysis methods including n-gram tokenizers. In terms of classification methods, we looked at the id3 Decision Tree vs Bayesian model for our classifier.
         </p>
       </div>
-      <div id="Sentiment" class = "col-md-4">
+      <div id="Sentiment" class="col-md-4">
         <h2 class="text-primary">NLP - Sentiment Analysis</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/NLP---Sentiment-Analysis')" src=<%= asset_path 'nlp.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <img onclick="window.open('https://github.com/sjha4/NLP---Sentiment-Analysis')" src=<%=asset_path 'nlp.jpg' %>; style="height: 100%; width: 100%;border-radius: 50%;"/>
         <br/>
         <p align="justify"><br/>
           Sentiment analyzer which uses N-gram models (uni, bi and tri) and ID3 algorithm to train decision trees that are able to detect the sentiment of a sentence.
@@ -378,54 +155,53 @@
         </p>
       </div>
     </div>
-    <div id= "AIs" class="row" style="display:none;">
-      <div id="Heuristic" class = "col-md-4">
+    <div id="AIs" class="row" style="display:none">
+      <div id="Heuristic" class="col-md-4">
         <h2 class="text-primary">Heuristic Graph Search - A* for Romania!</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/HeuristicGraphPathFinding')" src="http://aiandgames.com/wp-content/uploads/2015/12/Romania.png" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <img onclick="window.open('https://github.com/sjha4/HeuristicGraphPathFinding')" src="http://aiandgames.com/wp-content/uploads/2015/12/Romania.png" style="height:100%;width:100%;border-radius:50%"/>
         <br/>
         <p align="justify"><br/>
           Graph based minimum path finding using heuristics! A* , BFS and DFS!
         </p>
       </div>
-      <div id="Kmean" class = "col-md-4">
+      <div id="Kmean" class="col-md-4">
         <h2 class="text-primary"><b>ML</b> - Bisecting Kmeans</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/BisectingKMeans')" src="https://image.slidesharecdn.com/k-means-141207004407-conversion-gate01/95/k-means-20-638.jpg?cb=1417913147" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <img onclick="window.open('https://github.com/sjha4/BisectingKMeans')" src="https://image.slidesharecdn.com/k-means-141207004407-conversion-gate01/95/k-means-20-638.jpg?cb=1417913147" style="height:100%;width:100%;border-radius:50%"/>
         <br/>
         <p align="justify"><br/>
           An improved algorithm for K-means in R to reduce SSE of clustering found.
         </p>
       </div>
     </div>
-    <div id= "Systems" class="row" style="display:none;">
-      <div id="Project1" class = "col-md-3">
+    <div id="Systems" class="row" style="display:none">
+      <div id="Project1" class="col-md-3">
         <h2 class="text-primary">User-Level Threading Library</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/Custom-non-pre-emptive-user-level-threading-library')" src="http://www.thepaintedtiger.com/images/large/IMG_6225.JPG" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <img onclick="window.open('https://github.com/sjha4/Custom-non-pre-emptive-user-level-threading-library')" src="http://www.thepaintedtiger.com/images/large/IMG_6225.JPG" style="height:100%;width:100%;border-radius:50%"/>
         <br/>
         <p align="justify"><br/>A non-preemptive user
           level Thread library with support for Semaphores
           and context-switching.
         </p>
       </div>
-      <div id="Project2" class = "col-md-3">
+      <div id="Project2" class="col-md-3">
         <h2 class="text-primary">Mu-Shell - A mini shell prompt</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/Mu-Shell')" src="http://i2.wp.com/techpursue.com/wp-content/uploads/2017/11/UNIX-LINUX.jpg?fit=975%2C558&ssl=1" style="height: 100%; width: 100%;border-radius: 50%;"/>
-
+        <img onclick="window.open('https://github.com/sjha4/Mu-Shell')" src="http://i2.wp.com/techpursue.com/wp-content/uploads/2017/11/UNIX-LINUX.jpg?fit=975%2C558&ssl=1" style="height:100%;width:100%;border-radius:50%"/>
         <br/>
         <p align="justify"><br/>A shell : command interpreter – complete with parser,
           I/O redirection, command execution, signal handling, job control and status reporting.
         </p>
       </div>
-      <div id="Project3" class = "col-md-3">
+      <div id="Project3" class="col-md-3">
         <h2 class="text-primary">RAMDISK: In-memory Filesystem</h2><p><br/></p>
-        <img src="http://cdn.cultofmac.com/wp-content/uploads/2014/04/File-Size-Photo-640x480.jpg" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <img src="http://cdn.cultofmac.com/wp-content/uploads/2014/04/File-Size-Photo-640x480.jpg" style="height:100%;width:100%;border-radius:50%"/>
         <br/>
         <p align="justify"><br/>A filesystem where file/directory routines are executed in
           user-space instead of kernel-space. Based on RAM, accessing files is almost 300% faster.
         </p>
       </div>
-      <div id="Project4" class = "col-md-3">
+      <div id="Project4" class="col-md-3">
         <h2 class="text-primary">Fend – A restrictive sandbox </h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/Fend-Sandbox')" src="https://i.ytimg.com/vi/jboJuPY-LVI/maxresdefault.jpg" style="height: 100%; width: 100%;border-radius: 50%;"/>
+        <img onclick="window.open('https://github.com/sjha4/Fend-Sandbox')" src="https://i.ytimg.com/vi/jboJuPY-LVI/maxresdefault.jpg" style="height:100%;width:100%;border-radius:50%"/>
         <br/>
         <p align="justify"><br/>A security mechanism wherein access for every program is
           configurable at the granular level of library calls,
@@ -434,40 +210,37 @@
         </p>
       </div>
     </div>
-    <div id= "Networks" class="row" style="display:none;">
-      <div id="SDN" class = "col-md-4">
+    <div id="Networks" class="row" style="display:none">
+      <div id="SDN" class="col-md-4">
         <h2 class="text-primary">Service Chaining using OpenFlow (SDN)</h2><p><br/></p>
-        <img onclick="window.open('https://docs.google.com/document/d/1dIzr8OCAM-sghQRwgewDO1gyNZxBsI4DMFC1EQTBt2M/edit?usp=sharing')" src="http://media.bestofmicro.com/F/I/460638/gallery/Software-Defined-Network_w_640.jpg" style="height: 50%; width: 50%;border-radius: 50%;"/>
+        <img onclick="window.open('https://docs.google.com/document/d/1dIzr8OCAM-sghQRwgewDO1gyNZxBsI4DMFC1EQTBt2M/edit?usp=sharing')" src="http://media.bestofmicro.com/F/I/460638/gallery/Software-Defined-Network_w_640.jpg" style="height:50%;width:50%;border-radius:50%"/>
         <br/>
         <p align="justify"><br/>Traffic flow from the user is routed to the
           corresponding service function before being routed to the destination.
           This completely eliminates the need for network admins to allocate resources manually.
         </p>
       </div>
-      <div id="DBMS" class = "col-md-4">
+      <div id="DBMS" class="col-md-4">
         <h2 class="text-primary">University Assessment Application</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/SmokingSadhus/Course-Assessment-System-DBMS')" src=<%= asset_path 'oracle.jpg' %>; style="height: 50%; width: 50%;border-radius: 50%;"/>
+        <img onclick="window.open('https://github.com/SmokingSadhus/Course-Assessment-System-DBMS')" src=<%=asset_path 'oracle.jpg' %>; style="height: 50%; width: 50%;border-radius: 50%;"/>
         <br/>
         <p align="justify"><br/>
           This is primarily an Oracle Application with a Java interface for an online automated system for managing assignments and exams on a large university scale, similar to
           the popular Gradiance System.
         </p>
       </div>
-      <div id="Chat" class = "col-md-4">
+      <div id="Chat" class="col-md-4">
         <h2 class="text-primary">Multithreaded Java Chat Client/Server</h2><p><br/></p>
-        <img onclick="window.open('https://github.com/sjha4/ChatServer')" src="http://images.slideplayer.com/23/6584601/slides/slide_10.jpg" style="height: 50%; width: 50%;border-radius: 50%;"/>
+        <img onclick="window.open('https://github.com/sjha4/ChatServer')" src="http://images.slideplayer.com/23/6584601/slides/slide_10.jpg" style="height:50%;width:50%;border-radius:50%"/>
         <br/>
         <p align="justify"><br/>
           A simple Java chat client and server implementation! Restricted to 2 clients for now.
         </p>
       </div>
-
-
     </div>
-
   </div>
-  <div id= "rowAbout" class="row" style="display:none;margin-top: inherit;height:100%">
-    <div id="colAbout" style="overflow: visible" class = "col-md-4">
+  <div id="rowAbout" class="row" style="display:none;margin-top:inherit;height:100%">
+    <div id="colAbout" style="overflow:visible" class="col-md-4">
       <h2 class="text-primary">Contact</h2>
       <p align="justify"><br/>
         Phone Number: (+1)-919-523-8372
@@ -475,17 +248,16 @@
         <br/><h2 class="text-primary"> ABOUT ME! </h2><br/>
       </p>
       <p align="justify">I am pursuing my masters in computer science from North Carolina State University.
-      Too much needs to go here...Let's just say this div is under construction.
-      For now, watch my first trip to <b class="text-primary">California!!</b>
-      <br/>
-      <br/>
-      And yes! You can always mail me @ <b style="font-weight: bold">samirjha1525@gmail.com</b>
+        Too much needs to go here...Let's just say this div is under construction.
+        For now, watch my first trip to <b class="text-primary">California!!</b>
+        <br/>
+        <br/>
+        And yes! You can always mail me @ <b style="font-weight:bold">samirjha1525@gmail.com</b>
       </p>
     </div>
     <br/>
-    <div id="colFb" class = "col-md-7">
-      <iframe width="560" height="315" style="border-style:dashed; border-width: thick;border-color: black" src="https://www.youtube.com/embed/sKgMWFx84h0" frameborder="0" allowfullscreen></iframe>
-      <!--img id = "abc" style="height: 100%; width: 100%;border-radius: 50%;" onclick="window.open('https://www.facebook.com/You.just.stalked.Samir')" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/11742904_10206038775141339_8456099831047289091_n.jpg?oh=b82be752d86bdbf6c7e577a8921b31cc&oe=58FB58F9"/-->
+    <div id="colFb" class="col-md-7">
+      <iframe width="560" height="315" style="border-style:dashed;border-width:thick;border-color:black" src="https://www.youtube.com/embed/sKgMWFx84h0" frameborder="0" allowfullscreen></iframe>
       <br/>
     </div>
   </div>

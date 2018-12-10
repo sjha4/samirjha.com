@@ -1,21 +1,19 @@
-
 <%= form_tag("/application/new_comment", method: "post",:html => {:class => 'form'}) do %>
-    <h1 class="text-primary">Reach Me <span class="glyphicon glyphicon-comment" aria-hidden="true"></span></h1>
-    <div class="form-group">
+  <h1 class="text-primary">Reach Samir Jha <span class="glyphicon glyphicon-comment" aria-hidden="true"></span></h1>
+  <div class="form-group">
     <%= label_tag(:Name, "Name: ") %>
     <%= text_area_tag :Name , "",class:'form-control',placeholder: 'Anonymous!!' %>
     <br/>
     <%= label_tag(:Comment, "Message: ") %>
-      <%= text_area_tag(:Comment,"", class: 'form-control',placeholder: 'Something Nice...') %>
+    <%= text_area_tag(:Comment,"", class: 'form-control',placeholder: 'Something Nice...') %>
     <br/>
     <%= label_tag(:ContactInfo, "Contact Information: ") %>
-      <%= text_area_tag(:ContactInfo,"", class: 'form-control',placeholder: 'Will I spam you? YES!!') %>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+    <%= text_area_tag(:ContactInfo,"", class: 'form-control',placeholder: 'Will I spam you? YES!!') %>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
     <%= submit_tag("Post Message", class: 'form-control btn btn-danger', style: 'zoom: 150%;') %>
-      </div>
+  </div>
 <% end %>
-
