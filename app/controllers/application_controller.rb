@@ -1,5 +1,4 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery with: :exception
   before_action :set_comment, only: [:new_comment]
   def new_comment
       unlocked_params = ActiveSupport::HashWithIndifferentAccess.new(params.permit(:Name, :Comment, :ContactInfo))
