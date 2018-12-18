@@ -1,6 +1,6 @@
 <html>
 <header>
-  <style>@-moz-keyframes spin{0%{transform:rotateX(0deg)}50%{transform:rotateX(50deg)}100%{transform:rotateX(0deg)}}@-webkit-keyframes spin{0%{transform:rotateX(0deg)}50%{transform:rotateX(50deg)}100%{transform:rotateX(0deg)}}@keyframes spin{0%{transform:rotateX(0deg)}50%{transform:rotateX(50deg)}100%{transform:rotateX(0deg)}}html{height:100%}body{min-height:100%;background-size:100%}.text-primary{font-family:Fredericka the Great,sans-serif;font-weight:bold;color:white;border-color:#00a}.btn-danger{padding:-1px}.navbar-btn{margin:1%}.form-group{font-family:Fredericka the Great,sans-serif;font-weight:bold;color:white}.navbar-inverse{margin-bottom:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:white}.glyphicon-comment{color:dodgerblue}button{font-family:Fredericka the Great,sans-serif;font-weight:bold;font-size:120%;margin:1%}p{font-family:Fredericka the Great,sans-serif;font-size:110%;color:white}#footer{position:absolute;bottom:0;width:100%;height:5%}</style>
+  <style>@-moz-keyframes spin{0%{transform:rotateX(0deg)}50%{transform:rotateX(50deg)}100%{transform:rotateX(0deg)}}@-webkit-keyframes spin{0%{transform:rotateX(0deg)}50%{transform:rotateX(50deg)}100%{transform:rotateX(0deg)}}@keyframes spin{0%{transform:rotateX(0deg)}50%{transform:rotateX(50deg)}100%{transform:rotateX(0deg)}}html{height:100%}body{min-height:100%;background-size:100%}.text-primary{font-family:Abril Fatface,sans-serif;font-weight:bold;color:white;border-color:#00a}.btn-danger{padding:-1px}.navbar-btn{margin:1%}.form-group{font-family:Abril Fatface,sans-serif;font-weight:bold;color:white}.navbar-inverse{margin-bottom:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:white}.glyphicon-comment{color:dodgerblue}button{font-family:Abril Fatface,sans-serif;font-weight:bold;font-size:120%;margin:1%}p{font-family:Abril Fatface,sans-serif;font-size:110%;color:white}#footer{position:absolute;bottom:0;width:100%;height:5%}</style>
   <script>$(document).ready(function(){$("#Home").click(function(){$("#row1").css("display","block");$("#row2").css("display","none");$("#rowAbout").css("display","none")});$("#AboutMe").click(function(){if($("#AboutButtonText").text()==" About Samir Jha"){$("#row1").css("display","none");$("#row2").css("display","none");$("#rowAbout").css("display","block");$("#AboutButtonText").text("About Samir Jha")}else{$("#row1").css("display","block");$("#row2").css("display","none");$("#rowAbout").css("display","none");$("#AboutButtonText").text(" About Samir Jha")}});$("#proj").click(function(){var a=$("#folder");if($("#ProjText").text()==" See Projects"){a.removeClass("glyphicon glyphicon-folder-close");a.addClass("glyphicon glyphicon-folder-open");$("#ProjText").text(" Hide Projects");$("#row1").css("display","none");$("#row2").css("display","block");$("#rowAbout").css("display","none")}else{a.removeClass("glyphicon glyphicon-folder-open");a.addClass("glyphicon glyphicon-folder-close");$("#ProjText").text(" See Projects");$("#row1").css("display","block");$("#row2").css("display","none");$("#rowAbout").css("display","none")}});$("#System").click(function(){$("#Systems").css("display","block");$("#Networks").css("display","none");$("#Webs").css("display","none");$("#Rests").css("display","none");$("#MLs").css("display","none");$("#AIs").css("display","none")});$("#Network").click(function(){$("#Systems").css("display","none");$("#Networks").css("display","block");$("#Webs").css("display","none");$("#Rests").css("display","none");$("#MLs").css("display","none");$("#AIs").css("display","none")});$("#Web").click(function(){$("#Systems").css("display","none");$("#Networks").css("display","none");$("#Webs").css("display","block");$("#Rests").css("display","none");$("#MLs").css("display","none");$("#AIs").css("display","none")});$("#Rest").click(function(){$("#Systems").css("display","none");$("#Networks").css("display","none");$("#Webs").css("display","none");$("#Rests").css("display","block");$("#MLs").css("display","none");$("#AIs").css("display","none")});$("#ML").click(function(){$("#Systems").css("display","none");$("#Networks").css("display","none");$("#Webs").css("display","none");$("#Rests").css("display","none");$("#MLs").css("display","block");$("#AIs").css("display","none")});$("#AI").click(function(){$("#Systems").css("display","none");$("#Networks").css("display","none");$("#Webs").css("display","none");$("#Rests").css("display","none");$("#MLs").css("display","none");$("#AIs").css("display","block")});$("#Hide").click(function(){var d=$("img");var c=$("#FormFill");var a=$("#Images");d.slideToggle();if($(this).text()=="Hide Images!!"){$(this).text("Show Images!!");c.addClass("col-md-10");c.removeClass("col-md-8");a.addClass("col-md-0");a.removeClass("col-md-3");if(!("Notification" in window)){alert("This browser does not support desktop notification")}else{if(Notification.permission==="granted"){var b=new Notification("You could click on the images and redirect..",{iconUrl:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/0b8/2a1/1e2d049.jpg"});setTimeout(b.close.bind(b),3000)}else{if(Notification.permission!=="denied"){Notification.requestPermission(function(e){if(e==="granted"){var f=new Notification("You could click on the images and redirect..",{iconUrl:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/0b8/2a1/1e2d049.jpg"});setTimeout(f.close.bind(f),3000)}})}}}}else{$(this).text("Hide Images!!");a.removeClass("col-md-0");a.addClass("col-md-3");c.removeClass("col-md-10");c.addClass("col-md-8")}});$("#Crazy").click(function(){var a=$("div");a.css("display","block")})});</script>
 </header>
 <body style="margin:0;font-weight:bold;font-family:Tangerine sans-serif;background-size:100%">
@@ -24,8 +24,33 @@
       <%=render 'application/comment_form' %>
     </div>
   </div>
+  <div id="rowAbout" class="row" style="display:none;margin-top:inherit;height:100%">
+    <div id="colAbout" style="overflow:visible" class="col-md-8">
+      <br/><h2 class="text-primary"> ABOUT SAMIR JHA! </h2><br/>
+      <h3 class="text-primary" align="justify">Samir Jha is a full stack software developer fueled by passion and curiosity. He started his career in the digital world as a student at National Institute of Engineering, India in the small, beautiful, royal city of Mysore where he was accepted into the undergraduate program, an intensive 4-year bachelor program in the field of Computer Science.
+        <br/><br/>
+        He completed his stint at the university and ultimately landed at Akamai, where he helped launch several cloud enterprise projects including Financial Force and RemedyForce ticketing solution. He worked on the long term Akamai vision of moving on-premise data/applications to the cloud.
+        Samir Jha was awarded the "Most Valuable Player" for his contributions to Akamai's technical roadmap.
+        <br/><br/>
+        In the fall of 2016, he was accepted as a graduate student at North Carolina State University. He enrolled in the Masters program in Computer Science. In the summer of 2017, he was accepted into the intern program at Redhat where he joined the Satellite team to develop and contribute to the foreman/katello community.
+        <br/><br/>
+        He graduated from NCSU in December of 2017 with a GPA of 4. Upon graduation, he was offered the opportunity to join the Redhat Satellite team as a fulltime contributor which he readily accepted. He currently works with the team to develop new features and support lifecycle of the Redhat Satellite product.
+      </h3>
+    </div>
+    <br/>
+    <div id="colFb" class="col-md-4">
+      <h2 class="text-primary">Contact</h2>
+      <p align="justify"><br/>
+        Phone Number: (+1)-919-523-8372
+        <br/>Email: <b><a href="mailto:samirjha1525@gmail.com">samirjha1525@gmail.com</a></b><br>
+      </p>
+      <br/><br/><h3 class="text-primary" align="justify">Watch my trip to <b class="text-primary">California!!</b></h3>
+      <iframe width="560" height="315" style="border-style:dashed;border-width:thick;border-color:black" src="https://www.youtube.com/embed/sKgMWFx84h0" frameborder="0" allowfullscreen></iframe>
+      <br/>
+    </div>
+  </div>
   <div id="row2" style="display:none;margin-top:5%;height:100%">
-    <h2 class="text-primary" style="align-items:center">Projects</h2>
+    <h2 class="text-primary" style="align-items:center">Side Projects</h2>
     <p> (Click Project Image for github/documentation)</p>
     <div id="buttonDiv" style="align-items:center">
       <button id="Web" style="animation:spin 1s infinite;background-color:darkorange" type="button" class="btn btn-success">
@@ -240,34 +265,7 @@
       </div>
     </div>
   </div>
-  <div id="rowAbout" class="row" style="display:none;margin-top:inherit;height:100%">
-    <div id="colAbout" style="overflow:visible" class="col-md-4">
-      <h2 class="text-primary">Contact</h2>
-      <p align="justify"><br/>
-        Phone Number: (+1)-919-523-8372
-        <br/>Email: <b><a href="mailto:samirjha1525@gmail.com">samirjha1525@gmail.com</a></b><br>
-        <br/><h2 class="text-primary"> ABOUT ME! </h2><br/>
-      </p>
-      <p align="justify">Samir Jha is a full stack software developer fueled by passion and curiosity. He started his career in the digital world as a student at National Institute of Engineering, India in the small, beautiful, royal city of Mysore where he was accepted into the undergraduate program, an intensive 4-year bachelor program in the field of Computer Science.
 
-        He completed his stint at the university and ultimately landed at Akamai, where he helped launch several cloud enterprise projects including Financial Force and RemedyForce ticketing solution. He worked on the long term Akamai vision of moving on-premise data/applications to the cloud.
-        Samir Jha was awarded the "Most Valuable Player" for his contributions to Akamai's technical roadmap.
-
-        In the fall of 2016, he was accepted as a graduate student at North Carolina State University. He enrolled in the Masters program in Computer Science. In the summer of 2017, he was accepted into the intern program at Redhat where he joined the Satellite team to develop and contribute to the foreman/katello community.
-
-        He graduated from NCSU in December of 2017 with a GPA of 4. Upon graduation, he was offered the opportunity to join the Redhat Satellite team as a fulltime contributor which he readily accepted. He currently works with the team to develop new features and support lifecycle of the Redhat Satellite product.
-        <br/>Watch my first trip to <b class="text-primary">California!!</b>
-        <br/>
-        <br/>
-        And yes! You can always mail me @ <b style="font-weight:bold">samirjha1525@gmail.com</b>
-      </p>
-    </div>
-    <br/>
-    <div id="colFb" class="col-md-7">
-      <iframe width="560" height="315" style="border-style:dashed;border-width:thick;border-color:black" src="https://www.youtube.com/embed/sKgMWFx84h0" frameborder="0" allowfullscreen></iframe>
-      <br/>
-    </div>
-  </div>
 </div>
 </body>
 </html>
